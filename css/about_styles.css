@@ -1,0 +1,252 @@
+/*-------------
+About us styles
+---------------*/
+#about{
+  max-height: 80vh;
+  margin-top: 50px;
+}
+#about .img{
+  text-align: center;
+}
+
+#about .img img{
+  width: 700px;
+}
+
+.desc h1{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.desc h1 span{
+  color: var(--secondary);
+}
+
+.desc p{
+  color: var(--text-color);
+  text-align: justify ;
+  font-size: 1.25em;
+}
+
+/* mission vision */
+#about-2{
+  margin-top: 50px;
+}
+
+#about-2 .about-item{
+  margin: 20px 0;
+  background-color: #191a21;
+  padding: 50px 30px;
+  border-radius: 20px;
+  height: 400px;
+}
+
+#about-2 .about-item h3{
+  color: var(--secondary);
+}
+
+#about-2 .about-item i{
+  font-size: 3.25rem;
+  margin: 0;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+#about-2 .about-item h3{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about-item hr{
+  width:  3rem;
+  height: 3px;
+  background-color: white;
+  margin: 0 auto;
+  border: none;
+}
+
+.about-item p{
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.about-item:hover{
+  background-color: cyan;
+}
+
+/* introduction */
+.creator .prof img{
+  max-width: 400px;
+  border-radius: 10px;
+  border: 10px solid var(--dark);
+  box-shadow: 5px 5px 9px rgb(9, 6, 6);
+}
+
+.creator{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* footer */
+#footer{
+  border-top: 1px solid #161a23;
+}
+
+#footer h2{
+  font-size: 1.5rem;
+  color: var(--text-color-white);
+  margin-top: 5rem;
+}
+
+#footer ul li{
+  list-style-type: none;
+  margin: 1.25rem 0 0 -2rem;
+}
+
+#footer .news-letter p{
+  color: var(--text-color);
+  margin-top: 1.25rem;
+}
+
+#footer .news-letter input{
+  background-color: #212933;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 20px;
+  color: var(--text-color);
+}
+
+#footer .news-letter button{
+  border-radius: 50px;
+  padding: 15px 23px;
+  margin-left: 5px;
+}
+
+#footer .news-letter input:focus{
+  outline: none;
+}
+
+/* responsive design (smaller desktop size) */
+@media screen and (max-width: 1280px) {
+  #about{
+    margin: 0;
+  }
+
+  #about .img img{
+    width: 500px;
+  }
+
+  .desc{
+    width: 50%;
+  }
+  
+  .desc p{
+    font-size: 1rem;
+  }
+
+  .desc h1{
+    font-size: 3rem;
+  }
+
+  #about-2 .container .about-item {
+    height: 430px;
+  }
+
+  #footer h2{
+    font-size: 1rem;
+  }
+
+  #footer ul li,
+  #footer p{
+    font-size: .8rem;
+  }
+
+  #footer input{
+    font-size: .9rem;
+  }
+
+  #footer button{
+    font-size: .9rem;
+  }
+}
+
+
+
+/* responsive design (Ipad air landscape) */
+@media screen and (max-width: 1180px){
+  #about-2 .container .about-item{
+    height: 460px;
+  }
+}
+
+
+
+/* responsive design (Ipad air portrait) */
+@media screen and (max-width: 990px) {
+  #about .desc{
+    width: 100%;
+  }
+
+  .creator .desc {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .creator .prof{
+    text-align: center;
+  }
+
+  .creator {
+    margin: 0;
+  }
+
+  .creator .prof {
+    text-align: center;
+  }
+
+  #footer .w-52 {
+    width: 100%;
+  }
+
+  #footer .rcv {
+    margin-top: 20px;
+  }
+
+  #footer .news-letter {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 414px){
+  #about {
+      max-height: 120vh;
+    }
+  
+    #footer .news-letter input,
+    #footer .news-letter,
+    #about .img img {
+      width: 100%;
+    }
+  
+    .desc h1 {
+      font-size: 2rem;
+    }
+  
+    .creator .prof img {
+      max-width: 100%;
+    }
+  
+    #footer h2 {
+      margin-top: 30px;
+    }
+  
+    #footer .news-letter button {
+      margin: 0;
+      margin-top: 10px;
+      width: 100%;
+    }
+}
+
+/* responsive design mobile device */
