@@ -62,3 +62,22 @@ body::-webkit-scrollbar-thumb {
 .w-10{
   width: 10%;
 }
+
+/*-------------
+Common styles
+---------------*/
+.desc h1 {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.desc h1 span {
+  color: var(--secondary);
+}
+
+.desc p {
+  color: var(--text-color);
+  text-align: justify;
+  font-size: 1.25em;
+}

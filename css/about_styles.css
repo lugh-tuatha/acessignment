@@ -13,22 +13,6 @@ About us styles
   width: 700px;
 }
 
-.desc h1{
-  color: #FFF;
-  font-weight: 600;
-  font-size: 4rem;
-}
-
-.desc h1 span{
-  color: var(--secondary);
-}
-
-.desc p{
-  color: var(--text-color);
-  text-align: justify ;
-  font-size: 1.25em;
-}
-
 /* mission vision */
 #about-2{
   margin-top: 50px;
@@ -248,5 +232,4 @@ About us styles
       width: 100%;
     }
 }
-
 /* responsive design mobile device */
