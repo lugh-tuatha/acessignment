@@ -1,0 +1,15 @@
+/*-------------
+Home styles
+---------------*/
+.home{
+  max-height: 100vh;
+}
+
+.home .img img{
+  width: 700px;
+}
+
+.home .btn{
+  background-color: var(--primary);
+  color: #fff;
+}
