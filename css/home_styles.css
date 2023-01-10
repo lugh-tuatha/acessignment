@@ -26,13 +26,21 @@ Home styles
   z-index: -1;
 }
 
+.animation-2 img,
 .animation img{
   width: 50px;
   position: fixed;
   margin-top: -50px;
   z-index: -1;
   transition: ease-in-out;
+}
+
+.animation img{
   animation: left-right 3s linear infinite;
+}
+
+.animation-2 img{
+  animation: right-left 3s linear infinite;
 }
 
 @keyframes spin{
@@ -54,6 +62,20 @@ Home styles
   }
   100% {
     transform: translateX(-10px);
+  }
+}
+
+@keyframes right-left {
+  0% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
   }
 }
 
