@@ -12,6 +12,7 @@
   <!-- custom css -->
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/src.css">
   <!-- AOS cdn link -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- favicon -->
@@ -47,11 +48,12 @@
   <!-- navigation end -->
 
   <!-- answer src section start -->
-  <div class="container-fluid">
-    <h1>ANSWER <span>SRC</span></h1>
-    <ul class="nav nav-tabs">
+  <!-- tabs start -->
+  <div class="container-fluid" id="tabs">
+    <h1 class="text-center mt-4">ANSWER <span>SRC</span></h1>
+    <ul class="nav nav-tabs border-0 d-flex justify-content-center my-3">
       <li class="nav-item">
-        <button class="nav-link" data-bs-toggle="tab" id="other_tab" type="button" data-bs-target="#other" role="tab"
+        <button class="nav-link active" data-bs-toggle="tab" id="other_tab" type="button" data-bs-target="#other" role="tab"
           aria-controls="other" aria-selected="true">Other</button>
       </li>
       <li class="nav-item">
@@ -64,18 +66,97 @@
       </li>
     </ul>
   </div>
+  <!-- tabs end -->
 
-  <div class="tab-content">
-    <div class="tab-pane fade show" role="tabpanel" id="other">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum a est incidunt praesentium error assumenda quo distinctio rem modi cumque enim doloribus excepturi, saepe, animi quibusdam veritatis ducimus quos possimus officiis ratione dolorum vero. Vitae dolores ut delectus numquam deleniti.
-    </div>
-  </div>
-
+  <!-- other tabs start -->
+  <div class="container-fluid">
     <div class="tab-content">
-    <div class="tab-pane fade show" role="tabpanel" id="ama">
-      <h2>HI</h2>
+      <div class="tab-pane fade show active" role="tabpanel" id="other">
+        <div class="row justify-content-center">
+
+          <!-- box start -->
+          <div class="col-lg-2">
+            <div class="box">
+              <img src="assets/img/thumb/dept_thumb.png" alt="Dept thumb" class="src-thumb">
+              <div class="img-title">
+                <h2 class="text-center my-1">Conditional statement</h2>
+              </div>
+            </div>
+          </div>
+          <!-- box end -->
+
+        </div>
+      </div>
     </div>
   </div>
+  <!-- other tabs end -->
+
+  <!-- ama tabs start -->
+  <div class="container-fluid">
+    <div class="tab-content">
+      <div class="tab-pane fade show" role="tabpanel"  id="ama">
+        <div class="row column-gap-lg-5 justify-content-center">
+
+          <!-- box start -->
+          <div class="col-lg-2">
+            <div class="box">
+              <img src="assets/img/thumb/Methods_thumb.png" alt="Dept thumb" class="src-thumb">
+              <div class="img-title">
+                <h2 class="text-center my-1">Methods</h2>
+              </div>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2">
+            <div class="box">
+              <img src="assets/img/thumb/Methods_thumb.png" alt="Dept thumb" class="src-thumb">
+              <div class="img-title">
+                <h2 class="text-center my-1">Methods</h2>
+              </div>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2">
+            <div class="box">
+              <img src="assets/img/thumb/Methods_thumb.png" alt="Dept thumb" class="src-thumb">
+              <div class="img-title">
+                <h2 class="text-center my-1">Methods</h2>
+              </div>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2">
+            <div class="box">
+              <img src="assets/img/thumb/Methods_thumb.png" alt="Dept thumb" class="src-thumb">
+              <div class="img-title">
+                <h2 class="text-center my-1">Methods</h2>
+              </div>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2">
+            <div class="box">
+              <img src="assets/img/thumb/Methods_thumb.png" alt="Dept thumb" class="src-thumb">
+              <div class="img-title">
+                <h2 class="text-center my-1">Methods</h2>
+              </div>
+            </div>
+          </div>
+          <!-- box end -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ama tabs end -->
 
   <!-- answer src section end -->
 

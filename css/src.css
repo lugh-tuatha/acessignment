@@ -1,0 +1,66 @@
+/*-------------
+Tabs styles
+---------------*/
+#tabs h1{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+#tabs h1 span{
+  color: var(--secondary);
+}
+
+
+.nav-item .nav-link{
+  border-radius: 50px;
+  margin: 0 5px;
+  padding: 10px 30px;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.tab-content{
+  border: none;
+}
+
+.nav-item .nav-link:hover{
+  border: none;
+}
+
+.nav-tabs .nav-link.active{
+  background-color: var(--bg-black-900);
+  border: none;
+  box-shadow: 3px 3px 3px black;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+/*-------------
+boxes styles
+---------------*/
+.box{
+  background-color: var(--bg-black-900);
+  box-shadow: 3px 3px 3px black;
+  width: 320px;
+  height: 330px;
+  border-radius: 10px;
+}
+
+.box img{
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all .2s ease;
+}
+
+.box img:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.box .img-title h2{
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 200;
+}
