@@ -63,6 +63,10 @@ body::-webkit-scrollbar-thumb {
   width: 10%;
 }
 
+/* custom vh */
+.vh-85{
+  height: 85vh;
+}
 /*-------------
 Common styles
 ---------------*/

@@ -1,15 +1,65 @@
 /*-------------
 Home styles
 ---------------*/
-.home{
-  max-height: 100vh;
-}
-
 .home .img img{
   width: 700px;
 }
 
 .home .btn{
-  background-color: var(--primary);
-  color: #fff;
+  border-radius: 40px;
+  padding: 12px 25px;
+  transition: all 150ms ease-in-out;
+  box-shadow: 0 0 40px 40px var(--primary) inset, 0 0 0 0 var(--primary);
+}
+
+.home .btn:hover{
+  box-shadow: 0 0 6px 0 var(--primary) inset, 0 0 6px 4px var(--primary);
+}
+
+.spin img{
+  position: fixed;
+  bottom: -230px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: -1;
+}
+
+.animation img{
+  width: 50px;
+  position: fixed;
+  margin-top: -50px;
+  z-index: -1;
+  transition: ease-in-out;
+  animation: left-right 3s linear infinite;
+}
+
+@keyframes spin{
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes left-right {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+/* responsive design */
+@media screen and (max-width: 1280px) {
+  .home .img img{
+    width: 500px;
+  }
 }

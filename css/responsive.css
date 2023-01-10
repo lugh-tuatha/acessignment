@@ -1,0 +1,27 @@
+@media screen and (max-width: 1280px) {
+  .desc p {
+      font-size: 1rem;
+    }
+  
+  .desc h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #footer .w-52,
+  .desc,
+  #about .desc{
+      width: 100%;
+  }
+
+  .home .img img{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .desc h1 {
+      font-size: 2rem;
+  }
+}

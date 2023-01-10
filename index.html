@@ -10,10 +10,13 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
   <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- AOS cdn link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- custom css -->
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/home_styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <!-- favicon -->
   <link rel="shortcut icon" href="Assets/img/logo/favicon/home-page.png" type="image/x-icon">
 </head>
@@ -46,16 +49,24 @@
   <!-- navigation end -->  
 
   <!-- home page start -->
-  <div class="container-fluid d-flex flex-row-reverse home justify-content-around align-items-center mt-5">
-    <div class="img">
+  <div class="container-fluid d-lg-flex flex-row-reverse justify-content-around home align-items-center vh-85">
+    <div class="img mt-3 mt-lg-0 text-center" data-aos="zoom-in">
       <img src="Assets/img/home_banner.png" alt="Home banner">
     </div>
-    <div class="desc w-40">
+    <div class="desc w-40" data-aos="fade-right">
+      <div class="animation text-lg-end m-md-4">
+        <img src="assets/img/animation-2.png" alt="">
+      </div>
       <h1>ACE<span>SSIGNMENT</span></h1>
       <p>My goal is to guide aspiring developers on their journey and make the life of an IT students easier by sharing my knowledge and experience, offering explanations and guidance on coding assignments, and helping them navigate the challenges and opportunities in the field </p>
-      <button class="btn fw-bold"><a href="about.html">LEARN MORE</a></button>
+      <button class="btn fw-bold"><a href="about.html" style="color: white;">LEARN MORE</a></button>
+      <div class="animation text-center mt-5 mx-5">
+        <img src="assets/img/animation-2.png" alt="">
+      </div>
     </div>
-    
+  </div>
+  <div class="spin text-center">
+    <img src="assets/img/SPIN.png" alt="">
   </div>
   <!-- home page end -->
 
@@ -65,5 +76,12 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <!-- navigation script -->
   <script src="js/navigation.js"></script>
+  <!-- AOS js cdn link -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1100
+    });
+  </script>
 </body>
 </html>

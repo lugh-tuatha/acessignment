@@ -125,14 +125,6 @@ About us styles
     width: 50%;
   }
   
-  .desc p{
-    font-size: 1rem;
-  }
-
-  .desc h1{
-    font-size: 3rem;
-  }
-
   #about-2 .container .about-item {
     height: 430px;
   }
@@ -155,8 +147,6 @@ About us styles
   }
 }
 
-
-
 /* responsive design (Ipad air landscape) */
 @media screen and (max-width: 1180px){
   #about-2 .container .about-item{
@@ -164,16 +154,9 @@ About us styles
   }
 }
 
-
-
 /* responsive design (Ipad air portrait) */
 @media screen and (max-width: 990px) {
-  #about .desc{
-    width: 100%;
-  }
-
   .creator .desc {
-    width: 100%;
     margin-top: 20px;
   }
 
@@ -189,10 +172,6 @@ About us styles
     text-align: center;
   }
 
-  #footer .w-52 {
-    width: 100%;
-  }
-
   #footer .rcv {
     margin-top: 20px;
   }
@@ -203,7 +182,7 @@ About us styles
   }
 }
 
-@media screen and (max-width: 414px){
+  @media screen and (max-width: 414px){
   #about {
       max-height: 120vh;
     }
@@ -212,10 +191,6 @@ About us styles
     #footer .news-letter,
     #about .img img {
       width: 100%;
-    }
-  
-    .desc h1 {
-      font-size: 2rem;
     }
   
     .creator .prof img {
