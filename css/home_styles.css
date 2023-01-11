@@ -16,6 +16,10 @@ Home styles
   box-shadow: 0 0 6px 0 var(--primary) inset, 0 0 6px 4px var(--primary);
 }
 
+.home .desc p span{
+  font-weight: 600;
+}
+
 .spin img{
   position: fixed;
   bottom: -230px;
