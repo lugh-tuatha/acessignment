@@ -16,7 +16,7 @@ Tabs styles
   border-radius: 50px;
   margin: 0 5px;
   padding: 10px 30px;
-  color: var(--secondary);
+  color: var(--tertiary);
   font-weight: 600;
 }
 
@@ -32,7 +32,7 @@ Tabs styles
   background-color: var(--bg-black-900);
   border: none;
   box-shadow: 3px 3px 3px black;
-  color: var(--secondary);
+  color: var(--tertiary);
   font-weight: 600;
 }
 
@@ -59,6 +59,6 @@ boxes styles
 
 .box .img-title h2{
   font-size: 1.25rem;
-  color: white;
+  color: var(--text-color);
   font-weight: 200;
 }

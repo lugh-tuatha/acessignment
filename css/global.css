@@ -14,15 +14,11 @@ body {
   background-color: var(--bg-black-900);
 }
 
-a{
-  text-decoration: none;
-  color: var(--text-color);
-}
-
 /* custom css variables */
 :root {
   --primary: #489DCE;
-  --secondary: #FFA600;
+  --secondary: #63c5da;
+  --tertiary: #00FFEF;
   --light: #EEEEEE;
   --dark: #212121;
   --bg-black-900: #101414;
@@ -67,21 +63,7 @@ body::-webkit-scrollbar-thumb {
 .vh-85{
   height: 85vh;
 }
+
 /*-------------
 Common styles
 ---------------*/
-.desc h1 {
-  color: #FFF;
-  font-weight: 600;
-  font-size: 4rem;
-}
-
-.desc h1 span {
-  color: var(--secondary);
-}
-
-.desc p {
-  color: var(--text-color);
-  text-align: justify;
-  font-size: 1.25em;
-}

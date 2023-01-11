@@ -17,21 +17,23 @@
   <!-- custom css -->
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/navigation.css">
-  <link rel="stylesheet" href="css/about_styles.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/src.css">
+  <!-- scss styles -->
+  <link rel="stylesheet" href="dist/styles.css">
 </head>
 <body>
   <!-- navigation start here -->
   <nav>
     <div class="navs">
       <a href="index.html">
-        <img src="Assets/img/main_logo.png" alt="">
+        <img src="Assets/img/logo/logo.png" alt="" width="70px">
       </a>
       <div class="menu">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="src.html" class="act">Source</a>
-        <a href="resources.html">Resources & Guides</a>
+        <a href="src.html" >Source</a>
+        <a href="resources.html" class="act">Resources & Guides</a>
         <a href="azriel.html" class="is-active azriel">Azriel AI</a>
       </div>
       <button class="hamburger">
@@ -50,6 +52,167 @@
   </div>
   <!-- navigation end -->
 
+  <!-- Resources and guides section start -->
+  <!-- tabs start -->
+  <div class="container-fluid" id="tabs">
+    <h1 class="text-center mt-4">RESOURCES & <span>GUIDES</span></h1>
+    <ul class="nav nav-tabs border-0 d-flex justify-content-center my-3">
+      <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="tab" id="other_tab" type="button" data-bs-target="#yt-vids"
+          role="tab" aria-controls="other" aria-selected="true">YT VIDEOS</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="ama_tab" type="button" data-bs-target="#roadmap" role="tab"
+          aria-controls="ama" aria-selected="true">ROADMAP</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#sites" role="tab"
+          aria-controls="feu" aria-selected="true">USEFUL SITES</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#courses" role="tab"
+          aria-controls="feu" aria-selected="true">FREE COURSES</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#extension" role="tab"
+          aria-controls="feu" aria-selected="true">CHROME EXTENSION</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#repository" role="tab"
+          aria-controls="feu" aria-selected="true">GITHUB REPOSITORY</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#motivation" role="tab"
+          aria-controls="feu" aria-selected="true">MOTIVATION</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#community" role="tab"
+          aria-controls="feu" aria-selected="true">COMMUNITY</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#follow  " role="tab"
+          aria-controls="feu" aria-selected="true">MUST FOLLOW</button>
+      </li>
+    </ul>
+  </div>
+  <!-- tabs end -->
+  
+  <!-- yt vids tabs start -->
+  <div class="container-fluid">
+    <div class="tab-content">
+      <div class="tab-pane fade show active" role="tabpanel" id="yt-vids">
+        <div class="row column-gap-3 row-gap-3 justify-content-center">
+  
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/how-to-git.png" alt="How to git thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">Paano gamitin ang git</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/bootstrap_course.png" alt="Bootstrap thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">Bootstrap course</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/js_tagalog_course.png" alt="js tagalog thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">Javascript tagalog course</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/12hrs_js.png" alt="12 hrs js course thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">12 hrs javascript course</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/html_tagalog.png" alt="html tagalog course thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">HTML tagalog course</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/css-tagalog.png" alt="css tagalog course thumb"
+              class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">CSS tagalog course</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/css-transform.png" alt="css transform tagalog course thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">CSS transform & position</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/ux-design.png" alt="adobe xd thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">Adobe XD essential course</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 box">
+            <img src="Assets/img/thumb/yt_thumb/harvard.png" alt="adobe xd thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">Harvard - intro to comsci</h2>
+            </div>
+          </div>
+          <!-- box end -->
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- yt vids tabs end -->
+  
+  <!-- roadmap tabs start -->
+  <div class="container-fluid">
+    <div class="tab-content">
+      <div class="tab-pane fade show" role="tabpanel" id="roadmap">
+        <div class="row column-gap-3 row-gap-5 justify-content-center">
+  
+          <!-- box start -->
+          <div class="col-lg-2 col-11 col-md-3 col-sm-5 box">
+            <img src="Assets/img/thumb/yt_thumb/how-to-git.png" alt="How to git thumb" class="src-thumb img-fluid w-100">
+            <div class="img-title">
+              <h2 class="text-center my-2">Methods</h2>
+            </div>
+          </div>
+          <!-- box end -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- roadmap tabs end -->
+  
+  <!-- Resources and guides section end -->
 
   <!-- bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
