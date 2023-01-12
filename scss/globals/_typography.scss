@@ -1,31 +1,39 @@
 a,
 a:visited,
-a:active {
+a:active{
   text-decoration: none;
   color: var(--text-color);
 }
 
-.desc h1 {
+.desc h1{
   color: #FFF;
   font-weight: 600;
   font-size: 4rem;
 }
 
-.desc h1 span {
+.desc h1 span{
   color: var(--secondary);
 }
 
-.desc p {
+.desc p{
   color: var(--text-color);
   text-align: justify;
   font-size: 1.25em;
 }
 
 .modal-desc{
-  p {
+  p{
     text-align: justify;
     margin: 8px 8px;
-    color: var(--text-color-white);
+    color: var(--text-color);
+    font-weight: 200;
+  }
+  h5,
+  ul li{
+    color: var(--text-color);
+    font-weight: 400;
+  }
+  ul li{
     font-weight: 200;
   }
 }

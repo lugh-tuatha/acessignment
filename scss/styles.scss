@@ -4,11 +4,29 @@
   background-color: var(--background-color);
 }
 
+.modal-footer{
+  padding-top: 0;
+}
+
+.modal-body{
+  padding-bottom: 0;
+}
 
 .modal-footer,
 .modal-header{
   border: none;
   h5{
-    color: var(--text-color);
+    color: cornflowerblue;
+    font-weight: 600;
+  }
+  .btn a{
+    color: white;
+  }
+}
+
+.modal-header{
+  padding-bottom: 0;
+  .btn-close{
+    background-color: aliceblue;
   }
 }
