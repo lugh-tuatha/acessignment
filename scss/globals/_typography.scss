@@ -20,3 +20,12 @@ a:active {
   text-align: justify;
   font-size: 1.25em;
 }
+
+.modal-desc{
+  p {
+    text-align: justify;
+    margin: 8px 8px;
+    color: var(--text-color-white);
+    font-weight: 200;
+  }
+}

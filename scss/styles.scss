@@ -1,1 +1,14 @@
 @forward 'globals';
+
+.modal-content{
+  background-color: var(--background-color);
+}
+
+
+.modal-footer,
+.modal-header{
+  border: none;
+  h5{
+    color: var(--text-color);
+  }
+}

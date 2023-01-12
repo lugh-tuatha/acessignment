@@ -7,3 +7,15 @@
 body {
   background-color: var(--background-color);
 }
+
+.btn {
+  border-radius: 40px;
+  padding: 12px 25px;
+  transition: all 150ms ease-in-out;
+  box-shadow: 0 0 40px 40px var(--primary) inset, 0 0 0 0 var(--primary);
+}
+
+.btn:hover {
+  box-shadow: 0 0 6px 0 var(--primary) inset, 0 0 6px 4px var(--primary);
+}
+

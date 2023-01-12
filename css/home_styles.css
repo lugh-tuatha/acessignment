@@ -5,17 +5,6 @@ Home styles
   width: 700px;
 }
 
-.home .btn{
-  border-radius: 40px;
-  padding: 12px 25px;
-  transition: all 150ms ease-in-out;
-  box-shadow: 0 0 40px 40px var(--primary) inset, 0 0 0 0 var(--primary);
-}
-
-.home .btn:hover{
-  box-shadow: 0 0 6px 0 var(--primary) inset, 0 0 6px 4px var(--primary);
-}
-
 .home .desc p span{
   font-weight: 600;
 }
