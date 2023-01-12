@@ -113,7 +113,7 @@ nav img{
   padding-top: 7rem;
   opacity: 0;
   transform: translateY(-100%);
-  background-color: var(--bg-black-900);
+  background-color: var(--background-color);
   transition: 0.3s;
 }
 

@@ -1,19 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*-------------
-Global styles
----------------*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-}
-
-body {
-  background-color: var(--bg-black-900);
-}
-
 /* custom css variables */
 :root {
   --primary: #489DCE;
@@ -21,8 +8,6 @@ body {
   --tertiary: #00FFEF;
   --light: #EEEEEE;
   --dark: #212121;
-  --bg-black-900: #101414;
-  --text-color: #969aa4;
   --text-color-white: #fffefe;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -63,7 +48,3 @@ body::-webkit-scrollbar-thumb {
 .vh-85{
   height: 85vh;
 }
-
-/*-------------
-Common styles
----------------*/
