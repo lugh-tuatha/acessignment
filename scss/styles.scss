@@ -1,5 +1,7 @@
 @forward 'globals';
-
+/*-------------
+Modal styles
+---------------*/
 .modal-content{
   background-color: var(--background-color);
 }
@@ -28,5 +30,26 @@
   padding-bottom: 0;
   .btn-close{
     background-color: aliceblue;
+  }
+}
+
+/*-------------
+Roadmap styles
+---------------*/
+.roadmap{
+  img{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+  img:hover{
+    transform: scale(1.03);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .gradient-txt{
+    h1{
+      font-size: 2.25rem;
+    }
   }
 }
