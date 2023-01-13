@@ -465,4 +465,3 @@ list.innerHTML = `
 <li>Scalability</li>
 <li>Kubernetes</li>`
 container.appendChild(clone);
-

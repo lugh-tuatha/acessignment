@@ -67,3 +67,33 @@ Roadmap styles
     width: 100%;
   }
 }
+
+/*-------------
+Courses styles
+---------------*/
+.courses{
+  .card{
+    background-color: var(--background-color);
+    box-shadow: 3px 3px 3px black;
+    .card-title{
+      font-weight: 600;
+      color: turquoise;
+    }
+    .card-body{
+      p{
+        text-align: justify;
+        font-size: 1rem;
+      }
+      button{
+        border-radius: 0;
+        color: black;
+      }
+      button:hover{
+        color: white;
+      }
+    }
+    .card-text{
+      color: var(--text-color);
+    }
+  }
+}
