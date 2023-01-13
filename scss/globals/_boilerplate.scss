@@ -8,6 +8,23 @@ body {
   background-color: var(--background-color);
 }
 
+// scrollbar styles
+.modal-body::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.modal-body::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background-color: #1e1e24;
+}
+
+.modal-body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+}
+
+// buttons
 .btn {
   border-radius: 40px;
   padding: 12px 25px;

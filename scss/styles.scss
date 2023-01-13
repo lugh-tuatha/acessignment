@@ -37,14 +37,23 @@ Modal styles
 Roadmap styles
 ---------------*/
 .roadmap{
-  img{
+  .r-map{
     cursor: pointer;
     transition: all .3s ease-in-out;
   }
-  img:hover{
+  .r-map:hover{
     transform: scale(1.03);
   }
 }
+
+.modal-fullscreen{
+  background: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 
 @media screen and (max-width: 414px) {
   .gradient-txt{
@@ -53,3 +62,4 @@ Roadmap styles
     }
   }
 }
+
