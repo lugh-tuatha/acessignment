@@ -497,7 +497,7 @@
         <div class="desc">
           <p class="text-center fw-light">This section provides a roadmap for both front-end and back-end web development, outlining the steps and resources needed for mastering these skill areas.</p>
         </div>
-        <div class="d-lg-flex align-items-center my-5 roadmap">
+        <div class="d-lg-flex d-md-block align-items-center my-5 roadmap">
 
           <div class="col-lg-6 text-center">
             <a href="#"><img src="Assets/img/frontend-banner.png" alt="front-end banner" class="w-50 r-map" data-bs-target="#front-end" data-bs-toggle="modal"></a>
@@ -506,24 +506,25 @@
             </div>
           </div>
           <div class="col-lg-6 mt-5 mt-lg-0 text-center align-self-end">
-            <a href="#"><img src="Assets/img/backend-banner.png" alt="back-end banner" class="w-75 r-map"></a>
+            <a href="#"><img src="Assets/img/backend-banner.png" alt="back-end banner" class="w-75 r-map" data-bs-target="#back-end" data-bs-toggle="modal"></a>
             <div class="gradient-txt">
               <h1>BACK-END</h1>
             </div>
           </div>
 
           <!-- front-end modal start -->
-          <div class="modal fade" id="front-end" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+          <div class="modal fade rm-modal" id="front-end" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5>Front-End Developer Roadmap</h5>
+                  <h1>Front-End Developer Roadmap</h1>
                   <button type="button" class="btn-close me-1" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <div class="modal-desc mt-4">
+                  <div class="modal-desc">
                     <p>Starting with web development can be overwhelming. This front-end developer roadmap will guide you to start with it in the proper way. We will cover the most important building blocks of the web. This guide will help you to become a modern front-end developer.</p>
                   </div>
+                  <!-- front-end roadmap template -->
                   <div class="f-roadmap">
                     <template id="myNavTemplate">
                       <h2>Learn the basics - CSS</h2>
@@ -538,14 +539,44 @@
                     </template>
                   </div>
                 </div>
-                <div class="modal-footer">
-                  <a href="https://www.youtube.com/watch?v=WJvmUKCYlN0&t=288s" target="_blank" class="mx-auto"><button
-                      class="btn">Download</button></a>
-                </div>
               </div>
             </div>
           </div>
           <!-- front-end modal end -->
+
+          <!-- back-end modal start -->
+          <div class="modal fade rm-modal" id="back-end" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Back-End Developer Roadmap</h1>
+                  <button type="button" class="btn-close me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-desc">
+                    <p>Starting with web development can be overwhelming. This back-end developer roadmap will guide you to start with it in the proper way. We will cover the most important building blocks of the web. This guide will help you to become a modern back-end developer.</p>
+                  </div>
+                  <!-- bacend-end roadmap template -->
+                  <div class="b-roadmap">
+                    <template id="myTemplate">
+                      <h2>Choose a Programming language</h2>
+                      <p class="fw-lighter"></p>
+                      <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>Ruby</li>
+                        <li>Rust</li>
+                        <li>Java</li>
+                      </ul>
+                      <p id="p" class="fw-lighter"></p>
+                    </template>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- back-end modal end -->
         </div>
       </div>
     </div>

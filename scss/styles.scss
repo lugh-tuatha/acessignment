@@ -46,11 +46,24 @@ Roadmap styles
   }
 }
 
-@media screen and (max-width: 414px) {
-  .gradient-txt{
-    h1{
-      font-size: 2.25rem;
-    }
+.modal-fullscreen{
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .modal-fullscreen{
+    width: 60%;
   }
 }
 
+@media screen and (max-width: 414px) {
+  .gradient-txt{
+    h1{
+      font-size: 2.50rem;
+    }
+  }
+  .modal-fullscreen {
+    width: 100%;
+  }
+}

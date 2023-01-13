@@ -1,3 +1,4 @@
+/*----------------- front-end template -----------------*/
 var template = document.getElementById("myNavTemplate");
 var container = document.querySelector('.f-roadmap');
 var clone = template.content.cloneNode(true);
@@ -12,6 +13,18 @@ list.innerHTML = `
 container.appendChild(clone);
 
 var clone = template.content.cloneNode(true);
+container.appendChild(clone);
+
+var template = document.getElementById("myNavTemplate");
+var container = document.querySelector('.f-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Learn any CSS Framework';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Bootstrap</li>
+<li>Tailwind</li>
+<li>Materialize</li>`;
 container.appendChild(clone);
 
 var template = document.getElementById("myNavTemplate");
@@ -59,18 +72,6 @@ list.innerHTML = `
 <li>Scoping</li>
 <li>Hoisting</li>
 <li>Closures</li>`;
-container.appendChild(clone);
-
-var template = document.getElementById("myNavTemplate");
-var container = document.querySelector('.f-roadmap');
-var clone = template.content.cloneNode(true);
-var heading = clone.querySelector('h2');
-heading.textContent = 'Learn any CSS Framework';
-var list = clone.querySelector('ul');
-list.innerHTML = `
-<li>Bootstrap</li>
-<li>Tailwind</li>
-<li>Materialize</li>`;
 container.appendChild(clone);
 
 var template = document.getElementById("myNavTemplate");
@@ -234,3 +235,234 @@ list.innerHTML = `
 <li>Rollup.js</li>
 <li>Gulp</li>`
 container.appendChild(clone);
+
+/*----------------- back-end template -----------------*/
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Learn Basic Front-End Dev';
+var p = clone.querySelector('p');
+p.textContent = 'You must know basics of front-end development, and how things work in the browser.';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>`;
+var p2 = clone.getElementById('p');
+p2.textContent = 'Once you know basic front-end, you can then jump right into learning a programming language, there are so many options of programming language that you can learn to become a backend developer. Note: You don’t need to know multiple programming languages to become a backend developer. ';
+container.appendChild(clone);
+
+var clone = template.content.cloneNode(true);
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Then choose a Framework according to your programming language';
+var p = clone.querySelector('p');
+p.textContent = 'FOR JAVASCRIPT';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Node.js</li>
+<li>Deno</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Node.js';
+var p = clone.querySelector('p');
+p.textContent = 'POPULAR FRAMEWORK';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Express.js</li>
+<li>Nest.js</li>
+<li>Fastify</li>
+<li>Sails</li>
+<li>Hapi</li>
+<li>Restify</li>
+<li>Koa</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Python';
+var p = clone.querySelector('p');
+p.textContent = 'POPULAR FRAMEWORK';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Django</li>
+<li>Flask</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'PHP';
+var p = clone.querySelector('p');
+p.textContent = 'POPULAR FRAMEWORK';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Laravel</li>
+<li>Symfony</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Backend concepts you should learn';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>HTTP / HTTPS</li>
+<li>REST</li>
+<li>GraphQL</li>
+<li>Web Sockets</li>
+<li>CORS</li>
+<li>MVC Architecture</li>
+<li>CI / CD</li>
+<li>Serverless</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Learn about databases';
+var p = clone.querySelector('p');
+p.textContent = 'SQL';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>MySQL</li>
+<li>PostgreSQL</li>
+<li>SQL Lite</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Learn about databases';
+var p = clone.querySelector('p');
+p.textContent = 'NoSQL';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>MongoDB</li>
+<li>CouchDB</li>
+<li>DynamoDB</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Learn Caching';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Redis</li>
+<li>Memcached</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'ORM / ODM';
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Essential things to learn';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Authentication</li>
+<li>OAuth</li>
+<li>Hashing (bcrypt)</li>
+<li>Rate Limiting</li>
+<li>Reverse proxy</li>
+<li>Load balancer</li>
+<li>Documentation (Swagger)</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Learn any HTML Templating Engine';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>EJS</li>
+<li>PUG</li>
+<li>Handlebars</li>
+<li>doT</li>
+<li>Jade</li>
+<li>Eta</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Other Important Topics';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Linux</li>
+<li>Terminal (CLI)</li>
+<li>Git</li>
+<li>Basic Networking</li>
+<li>Web Security</li>
+<li>Payment Gateways</li>
+<li>Testing</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Learn to deploy and learn any cloud service';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Google Cloud</li>
+<li>Digital Ocean</li>
+<li>AWS</li>
+<li>Azure</li>
+<li>Heroku</li>
+<li>Linode</li>
+<li>Vercel</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Tools to learn as a backend developer';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>NPM</li>
+<li>Yarn</li>
+<li>Postman</li>
+<li>GitHub</li>
+<li>Insomnia</li>`
+container.appendChild(clone);
+
+var template = document.getElementById("myTemplate");
+var container = document.querySelector('.b-roadmap');
+var clone = template.content.cloneNode(true);
+var heading = clone.querySelector('h2');
+heading.textContent = 'Optional things to learn';
+var list = clone.querySelector('ul');
+list.innerHTML = `
+<li>Docker</li>
+<li>Performance</li>
+<li>Scalability</li>
+<li>Kubernetes</li>`
+container.appendChild(clone);
+

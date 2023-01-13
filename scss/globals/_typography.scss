@@ -38,6 +38,7 @@ a:active{
   }
 }
 
+.b-roadmap h2,
 .f-roadmap h2,
 .gradient-txt{
   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
@@ -49,10 +50,20 @@ a:active{
   }
 }
 
+.rm-modal {
+  h1 {
+    color: turquoise;
+  }
+}
+
+.b-roadmap,
 .f-roadmap{
   li{
     list-style-image: url(/Assets/img/pins.png);
     color: var(--text-color-white);
     font-weight: 200;
+  }
+  p{
+    color: var(--text-color-white);
   }
 }
