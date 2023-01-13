@@ -38,12 +38,21 @@ a:active{
   }
 }
 
+.f-roadmap h2,
 .gradient-txt{
   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   h1{
     font-weight: 700;
     font-size: 3.25rem;
+  }
+}
+
+.f-roadmap{
+  li{
+    list-style-image: url(/Assets/img/pins.png);
+    color: var(--text-color-white);
+    font-weight: 200;
   }
 }
