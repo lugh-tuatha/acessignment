@@ -97,3 +97,36 @@ Courses styles
     }
   }
 }
+
+/*-------------------
+Useful website styles
+---------------------*/
+.u-website{
+  height: 91px;
+  overflow: hidden;
+  background-color: #141418;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  img{
+    width: 80px;
+    height: 61px;
+    margin: auto auto;
+  }
+  .information{
+    margin-left: 10px;
+    color: var(--text-color);
+    h5{
+      color: turquoise;
+    }
+  }
+  a{
+    text-decoration: underline;
+    color: var(--primary);
+  }
+}
+
+.expanded{
+  height: auto;
+}
