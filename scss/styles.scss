@@ -224,3 +224,30 @@ Src tab styles
     }
   }
 }
+
+/*-------------------
+Must follow styles
+---------------------*/
+#follow{
+  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: auto 10px 0 0;
+  }
+  a{
+    margin: auto 0;
+  }
+  .pfp{
+    transition: all .2s ease;
+  }
+  .pfp:hover{
+    transform: scale(1.05);
+  }
+  .pfp:hover a{
+    color: turquoise;
+  }
+  h3{
+    color: var(--primary);
+  }
+}
