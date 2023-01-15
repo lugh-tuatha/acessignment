@@ -15,6 +15,8 @@
   <link rel="shortcut icon" href="Assets/img/logo/favicon/src.png" type="image/x-icon">
   <!-- scss styles -->
   <link rel="stylesheet" href="dist/styles.css">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <!-- custom css -->
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/navigation.css">
@@ -99,29 +101,72 @@
       <div class="tab-pane fade show" role="tabpanel"  id="ama">
         <div class="row column-gap-3 row-gap-3 justify-content-center">
 
-          <!-- box start -->
-          <div class="col-lg-2 col-11 col-md-3 col-sm-5 box">
-            <img src="Assets/img/thumb/src_thumb/Methods_thumb.png" alt="Method thumb" class="src-thumb img-fluid w-100" >
-            <div class="img-title">
-              <h2 class="text-center my-2">Methods</h2>
-            </div>
-          </div>
-          <!-- box end -->
-
-          <!-- box start -->
-          <div class="col-lg-2 col-11 col-md-3 col-sm-5 box">
+          <!-- constructor start -->
+          <div class="col-lg-2 col-11 col-md-3 col-sm-5 box" data-bs-toggle="modal" data-bs-target="#constructorAns">
             <img src="Assets/img/thumb/src_thumb/op.png" alt="Method thumb" class="src-thumb img-fluid w-100">
             <div class="img-title">
               <h2 class="text-center my-2">Constructors Challenge</h2>
             </div>
           </div>
-          <!-- box end -->
+
+          <!-- constructor MODAL -->
+          <div class="modal fade" id="constructorAns" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Constructors Challenge</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Palitan mo naman yung variables classmate</p>
+                  <img src="Assets/img/answer/OP.png" alt="web answer" class="img-fluid d-none d-lg-block">
+                  <img src="Assets/img/Answer_mobile/OP.png" alt="mobile answer" class="img-fluid d-block d-lg-none">
+                </div>
+                <div class="modal-footer">
+                  <a href="https://github.com/lugh-tuatha/Acessignment-answer-src/blob/main/Java/Constructor.java" target="_blank"><i
+                      class="fa-brands fa-github fa-2 me-1 mt-3"></i>src code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- constructor end -->
+
+
+          <!-- multiplication start -->
+          <div class="col-lg-2 col-11 col-md-3 col-sm-5 box" data-bs-toggle="modal" data-bs-target="#methodAns">
+            <img src="Assets/img/thumb/src_thumb/Methods_thumb.png" alt="Method thumb" class="src-thumb img-fluid w-100" >
+            <div class="img-title">
+              <h2 class="text-center my-2">Methods</h2>
+            </div>
+          </div>
+
+          <!-- multiplication MODAL -->
+          <div class="modal fade" id="methodAns" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Multiplication using Method</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Palitan mo naman yung variables classmate</p>
+                  <img src="Assets/img/answer/Methods.png" alt="web answer" class="img-fluid d-none d-lg-block">
+                  <img src="Assets/img/Answer_mobile/Method.png" alt="mobile answer" class="img-fluid d-block d-lg-none">
+                </div>
+                <div class="modal-footer">
+                  <a href="https://github.com/lugh-tuatha/Acessignment-answer-src/blob/main/Java/method.java" target="_blank"><i class="fa-brands fa-github fa-2 me-1 mt-3"></i>src code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- multiplication end -->
 
         </div>
       </div>
     </div>
   </div>
   <!-- ama tabs end -->
+
 
   <!-- answer src section end -->
 
