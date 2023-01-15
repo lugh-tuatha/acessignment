@@ -74,7 +74,7 @@
           aria-controls="feu" aria-selected="true">USEFUL SITES</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#extension" role="tab"
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#chromeExtension" role="tab"
           aria-controls="feu" aria-selected="true">CHROME EXTENSION</button>
       </li>
       <li class="nav-item">
@@ -86,8 +86,8 @@
           aria-controls="feu" aria-selected="true">MOTIVATION</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#podcast  " role="tab"
-          aria-controls="feu" aria-selected="true">SPOTIFY PODCAST</button>
+        <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#vscodeExtension  " role="tab"
+          aria-controls="feu" aria-selected="true">VSCODE EXTENSION</button>
       </li>
       <li class="nav-item">
         <button class="nav-link" data-bs-toggle="tab" id="feu_tab" type="button" data-bs-target="#community" role="tab"
@@ -629,6 +629,7 @@
       </div>
     </div>
   <!-- free courses end -->
+  
   <!-- useful websites start -->
   <div class="tab-content">
     <div class="tab-pane fade show" role="tabpanel" id="sites">
@@ -637,10 +638,10 @@
         developer.</p>
       </div>
       <div class="container-fluid">
-        <div class="row column-gap-4 row-gap-2 justify-content-center">
+        <div class="row column-gap-4 row-gap-4 justify-content-center">
 
           <!-- google fonts start -->
-          <div class="col-lg-3 d-flex u-website" id="google-f">
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="google-f">
             <img src="Assets/img/logo/website_logo/google-fonts.png" alt="Google fonts logo">
             <div class="information">
               <h5 class="my-2">Google Fonts</h5>
@@ -648,40 +649,144 @@
               <h5>Purpose of the website:</h5>
               <p>Google Fonts allows designers and developers to easily access a wide variety of fonts to use on their websites, without
               the need to host them on their own servers.</p>
-              <p><span>Link: </span><a href="https://fonts.google.com/" target="_blank">https://fonts.google.com/</a></p>
-              <a href="#"><button class="btn btn-primary mb-3">Tutorial</button></a>
+              <p><span>Link: </span><a href="https://fonts.google.com/" target="_blank">https://fonts.google.com</a></p>
+              <a data-bs-toggle="modal" data-bs-target="#g-fonts-modal"><button class="btn btn-primary mb-3">Tutorial</button></a>
             </div>
           </div>
+
+          <!-- google fonts MODAL -->
+          <div class="modal fade u-website-modal" id="g-fonts-modal" tabindex="-1" aria-labelledby="g-fonts-modal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="g-fonts-modalLabel">Google fonts tutorial</h1>
+                  <button type="button" class="btn-close me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <iframe src="https://scribehow.com/embed/Google_fonts_tutorial__cp30Itu1RtGr7WRo4k5ubw" height="640"></iframe>
+                </div>
+                <div class="modal-footer">
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- google fonts end -->
 
           <!-- font awesome start -->
-          <div class="col-lg-3 d-flex u-website" id="f-awesome">
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="f-awesome">
             <img src="Assets/img/logo/website_logo/font-awesome.png" alt="Google fonts logo">
             <div class="information">
               <h5 class="my-2">Font Awesome</h5>
               <p>Font Awesome is a free, open-source library of scalable vector icons that can be used on websites, mobile apps, and other digital projects.</p>
               <h5>Purpose of the website:</h5>
               <p>Font Awesome allows designers and developers to easily access a wide variety of customizable icons to use on their projects, without the need to create custom graphics.</p>
-              <p><span>Link: </span><a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a></p>
-              <p><span>CDN Link: </span><a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a></p>
+              <p><span>Link: </span><a href="https://fontawesome.com/" target="_blank">https://fontawesome.com</a></p>
+              <p><span>CDN Link: </span><a href="https://fontawesome.com/" target="_blank">https://fontawesome.com</a></p>
               <a href="#"><button class="btn btn-primary mb-3">Tutorial</button></a>
             </div>
           </div>
           <!-- font awesome end -->
 
           <!-- coding fantasy start -->
-          <div class="col-lg-3 d-flex u-website" id="c-fantasy">
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="c-fantasy">
             <img src="Assets/img/logo/website_logo/coding-fantasy.png" alt="Google fonts logo">
             <div class="information">
               <h5 class="my-2">Coding Fantasy</h5>
               <p>Coding Fantasy is a website that provides a variety of tutorials and resources for learning how to code by playing games.</p>
               <h5>Purpose of the website:</h5>
               <p>It aims to assist users of all skill levels in learning how to code, by providing tutorials, resources, and examples that are easy to understand and follow through interactive and engaging games.</p>
-              <p><span>Link: </span><a href="https://codingfantasy.com/" target="_blank">https://codingfantasy.com/</a></p>
+              <p><span>Link: </span><a href="https://codingfantasy.com/" target="_blank">https://codingfantasy.com</a></p>
               <a href="#"><button class="btn btn-primary mb-3">Demo</button></a>
             </div>
           </div>
           <!-- coding fantasy end -->
+
+          <!-- code img start -->
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="c-img">
+            <img src="Assets/img/logo/website_logo/code_image.png" alt="Code Img logo">
+            <div class="information">
+              <h5 class="my-2">Code Image</h5>
+              <p>Codeimage is a web-based application that allows users to create and share visual representations of their code
+              snippets.</p>
+              <h5>Purpose of the website:</h5>
+              <p>to make it easier for developers to share their code with others in a more visually appealing way. This can be useful for teaching, documenting, and sharing code with colleagues, or for creating tutorials or blog posts.</p>
+              <p><span>Link: </span><a href="https://app.codeimage.dev/" target="_blank">https://app.codeimage.dev/</a></p>
+              <a href="#"><button class="btn btn-primary mb-3">Demo</button></a>
+            </div>
+          </div>
+          <!-- code img end -->
+
+          <!-- remove bg start -->
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="r-bg">
+            <img src="Assets/img/logo/website_logo/remove-bg.png" alt="Remove bg logo">
+            <div class="information">
+              <h5 class="my-2">Remove Background</h5>
+              <p>Allows users to quickly and easily remove the background from images. The website provides a simple and easy-to-use interface that allows users to upload an image and then automatically remove the background,</p>
+              <h5>Purpose of the website:</h5>
+              <p>Provide a fast and efficient way to remove backgrounds from images, which can be useful for a variety of tasks such as creating transparent PNGs, removing unwanted elements from photos, and isolating specific objects in an image. The service can be used for personal or professional projects,</p>
+              <p><span>Link: </span><a href="https://www.remove.bg/" target="_blank">https://www.remove.bg/</a></p>
+              <a href="#"><button class="btn btn-primary mb-3">Demo</button></a>
+            </div>
+          </div>
+          <!-- remove bg end -->
+
+          <!-- chat gpt start -->
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="c-gpt">
+            <img src="Assets/img/logo/website_logo/gpt-3.png" alt="Chat gpt logo">
+            <div class="information">
+              <h5 class="my-2">Chat GPT</h5>
+              <p>The website provides an interactive platform for users to engage with OpenAI's language model GPT-3, which allows you to ask questions, get help with coding, or just have a conversation.</p>
+              <h5>Purpose of the website:</h5>
+              <p>to showcase the capabilities of GPT-3 and to provide a platform for users to interact with the model. By using the website, users can test the model's ability to understand natural language, generate human-like text, and complete tasks such as coding and language translation.</p>
+              <p><span>Link: </span><a href="https://chat.openai.com/" target="_blank">https://chat.openai.com/</a></p>
+              <a href="#"><button class="btn btn-primary mb-3">Demo</button></a>
+            </div>
+          </div>
+          <!-- chat gpt end -->
+
+          <!-- roadmap sh start -->
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="r-sh">
+            <img src="Assets/img/logo/website_logo/roadmap-sh.png" alt="Roadmap sh logo">
+            <div class="information">
+              <h5 class="my-2">Roadmap.sh</h5>
+              <p>Web-based project management tool that allows users to create and share visual roadmaps of their projects.</p>
+              <h5>Purpose of the website:</h5>
+              <p>Help users plan, organize and visualize their projects in a clear and simple way. Users can create detailed timelines, set milestones, and allocate resources to their projects</p>
+              <p><span>Link: </span><a href="https://roadmap.sh/" target="_blank">https://roadmap.sh/</a></p>
+              <a href="#"><button class="btn btn-primary mb-3">Demo</button></a>
+            </div>
+          </div>
+          <!-- roadmap sh end -->
+
+          <!-- tome start -->
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="tome">
+            <img src="Assets/img/logo/website_logo/tome.png" alt="tome logo">
+            <div class="information">
+              <h5 class="my-2">Tome</h5>
+              <p>Tome app automatically creates a powerpoint presentation</p>
+              <h5>Purpose of the website:</h5>
+              <p>Help users create and share engaging, multimedia stories that can be easily consumed by readers on the web.</p>
+              <p><span>Link: </span><a href="https://tome.app/" target="_blank">https://tome.app/</a></p>
+              <a href="#"><button class="btn btn-primary mb-3">Demo</button></a>
+            </div>
+          </div>
+          <!-- tome end -->
+
+          <!-- icon finder start -->
+          <div class="col-lg-3 col-md-5 d-flex u-website" id="i-finder">
+            <img src="Assets/img/logo/website_logo/icon_finder.png" alt="icon finder logo">
+            <div class="information">
+              <h5 class="my-2">Icon finder</h5>
+              <p>Website that provides a searchable database of icons and vector graphics for use in web design and graphic design
+              projects.</p>
+              <h5>Purpose of the website:</h5>
+              <p>provide designers and developers with a convenient and easy way to find and download high-quality icons for their projects.</p>
+              <p><span>Link: </span><a href="https://www.iconfinder.com/" target="_blank">https://www.iconfinder.com/</a></p>
+              <a href="#"><button class="btn btn-primary mb-3">Demo</button></a>
+            </div>
+          </div>
+          <!-- icon finder end -->
 
         </div>
       </div>

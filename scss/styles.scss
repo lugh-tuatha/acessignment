@@ -122,11 +122,22 @@ Useful website styles
     }
   }
   a{
-    text-decoration: underline;
     color: var(--primary);
+  }
+  p{
+    font-weight: 300;
+    text-align: justify;
+  }
+}
+
+.u-website-modal {
+  iframe {
+    width: 100%;
   }
 }
 
 .expanded{
   height: auto;
 }
+
+
