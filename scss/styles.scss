@@ -281,6 +281,80 @@ Community styles
 }
 
 /*-------------------
+Useful repo styles
+---------------------*/
+.repo-card {
+  padding: 5px;
+  text-align: center;
+  background-color: var(--cards-color);
+  border-radius: 10px;
+  cursor: pointer;
+
+  .profile {
+    border-radius: 10px;
+    transition: .5s;
+  }
+
+  .repo-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    .back{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #1b1b22;
+      transition: .6s;
+      z-index: 1;
+      padding: 10px;
+      color: var(--text-color-white);
+      border-radius: 2px;
+      h3{
+        font-weight: 700;
+        color: var(--text-color);
+      }
+      p{
+        font-weight: 200;
+      }
+      i{
+        font-size: 3rem;
+      }
+    }
+
+    .from-bottom {
+      top: 100%;
+      left: 0;
+    }
+
+    h2{
+      color: var(--text-color);
+      font-weight: 700;
+      margin: 10px 0;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.repo-card:hover {
+  .profile {
+    transform: scale(1.4);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+
+  .repo-content {
+    .from-bottom{
+      top: 0%;
+    }
+  }
+}
+
+
+
+
+/*-------------------
 Responsive design
 ---------------------*/
 @media screen and (max-width: 1280px) {
