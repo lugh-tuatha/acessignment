@@ -85,3 +85,18 @@ boxes styles
 .sub:hover{
   transform: scale(1.1);
 }
+
+/*-------------
+form styles
+---------------*/
+form #question{
+  height: 100px;
+}
+
+form label{
+  color: var(--text-color);
+}
+
+form{
+  color: var(--background-color);
+}
