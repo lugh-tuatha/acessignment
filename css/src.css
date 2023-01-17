@@ -62,3 +62,26 @@ boxes styles
   color: var(--text-color);
   font-weight: 200;
 }
+
+.submit{
+  height: 100%;
+}
+
+.submit p{
+  color: var(--text-color-white);
+  font-weight: 100;
+}
+
+.sub i{
+  opacity: .3;
+  color: var(--text-color-white);
+}
+
+.sub{
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.sub:hover{
+  transform: scale(1.1);
+}
