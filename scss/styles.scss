@@ -245,22 +245,33 @@ Community styles
     background-color: var(--cards-color);
     color: var(--text-color);
     border-radius: 20px;
-    padding: 30px 0 0  0;
+    padding: 30px 0 14px  0;
     cursor: pointer;
+
+    img{
+      filter: grayscale(100%);
+      height: 50px;
+      border-radius: 10px;
+      transition: filter .5s ease
+    }
+
+    h3{
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
   }
 
   .community-box:hover{
     border: 1px solid #00838d;
     color: #00838d;
-    transition: all .5s ease;
-    padding-bottom: 10px;
-    .go-corner {
-      opacity: 0.7;
+
+    img{
+      filter: none;
     }
 
     .join{
       opacity: 1;
-    transition: all 1.5s ease;
+      transition: all 1.5s ease;
     }
   }
 
@@ -280,6 +291,14 @@ Responsive design
   .motivation {
     .motivationContainer {
       column-count: 4;
+    }
+  }
+
+  #community {
+    .community-box {
+      h3{
+        font-size: 1.2rem;
+      }
     }
   }
 }
