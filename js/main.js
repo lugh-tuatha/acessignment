@@ -142,7 +142,8 @@ const quote = document.getElementById("quote-day");
 const vQuote = quote.getElementsByTagName("video")[0];
 const threeThings = document.getElementById("3-things");
 const vThreeThings = threeThings.getElementsByTagName("video")[0];
-
+const doIt = document.getElementById("do-it");
+const vdoIt = doIt.getElementsByTagName("video")[0];
 
 grind.addEventListener('hidden.bs.modal', function () {
     // Pause the video
@@ -159,5 +160,9 @@ quote.addEventListener('hidden.bs.modal', function () {
 
 threeThings.addEventListener('hidden.bs.modal', function () {
   vThreeThings.pause();
+});
+
+doIt.addEventListener('hidden.bs.modal', function () {
+  vdoIt.pause();
 });
 
