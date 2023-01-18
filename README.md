@@ -51,5 +51,6 @@ I want to acknowledge the valuable contributions of these resources in the devel
 * [Form-to-google-sheets](https://github.com/jamiewilson/form-to-google-sheets)
 * [Code Image](https://app.codeimage.dev/)
 * [Scribehow](https://scribehow.com/)
+* [Font Awesome](https://fontawesome.com)
 
 
