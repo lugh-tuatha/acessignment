@@ -49,3 +49,7 @@ Don't forget to give the project a star! Thanks again!
 I want to acknowledge the valuable contributions of these resources in the development of our project.
 * [AOS - Animate on Scroll](https://github.com/michalsnik/aos/tree/v2)
 * [Form-to-google-sheets](https://github.com/jamiewilson/form-to-google-sheets)
+* [Code Image](https://app.codeimage.dev/)
+* [Scribehow](https://scribehow.com/)
+
+
