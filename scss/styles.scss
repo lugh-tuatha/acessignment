@@ -364,8 +364,11 @@ Challenge design
     width: 599px;
     height: 510px;
     border-radius: 15px;
-    background-color: var(--challenge-box);
+    background-color: var(--cards-color);
+    box-shadow: 3px 3px 3px black;
     margin-top: 50px;
+    background-image: url(/Assets/img/challenge-item/cards-bg.png);
+    background-size: cover;
     .challenge-front{
       width: 300px;
       height: 140px;
