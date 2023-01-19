@@ -1,4 +1,4 @@
-class method2 {
+class pr1Methods {
     public static void main(String[] args) {
         String name = "Ace Gabriel P. Pasiliao";
         int gradeLevel = 18;
