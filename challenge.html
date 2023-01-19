@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Challenge</title>
+  <title>Document</title>
   <!-- bootstrap link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -13,12 +13,14 @@
   <!-- AOS cdn link -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- favicon -->
-  <link rel="shortcut icon" href="Assets/img/logo/favicon/more-info.png" type="image/x-icon">
-  <!-- scss styles -->
-  <link rel="stylesheet" href="dist/styles.css">
+  <link rel="shortcut icon" href="Assets/img/logo/favicon/challenge.png" type="image/x-icon">
   <!-- custom css -->
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/about_styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- scss styles -->
+  <link rel="stylesheet" href="dist/styles.css">
 </head>
 <body>
   <!-- navigation start here -->
@@ -31,7 +33,7 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="src.html">Source</a>
-        <a href="resources.html" class="act">Resources & Guides</a>
+        <a href="resources.html">Resources & Guides</a>
         <a href="challenge.html" class="is-active azriel">Challenge</a>
       </div>
       <button class="hamburger">
@@ -50,6 +52,81 @@
   </div>
   <!-- navigation end -->
 
+  <!-- challenge start here -->
+  <div class="container-fluid">
+  <!-- .challenge box start -->
+    <div class="container-fluid d-lg-flex align-items-center justify-content-around flex-row-reverse" id="challenge" data-aos="zoom-in">
+      <div class="challenge-container-box d-flex flex-column-reverse justify-content-center align-items-end gap-4">
+
+        <!-- .js counter  start here -->
+        <div class="challenge-front align-self-center item-3">
+          <div class="d-flex challenge-title">
+            <i class="fa-solid fa-gear"></i>
+            <p>JS - COUNTER</p>
+          </div>
+
+          <div class="animation-item-3 text-center mt-2">
+            <a href="#">
+              <h2 id="counter">0</h2>
+              <button class="btn btn-primary" onclick="plusOne()" id="plus-one"><i class="fa-solid fa-arrow-up"></i></button>
+              <button class="btn btn-primary" onclick="minusOne()" id="plus-two"><i class="fa-solid fa-arrow-down"></i></button>
+            </a>
+          </div>
+        </div>
+        <!-- .js counter  end here -->
+
+
+        <!-- .responsive-thumb start here -->
+        <div class="challenge-front me-3 item-2">
+          <div class="d-flex challenge-title">
+            <i class="fa-solid fa-gear"></i>
+            <p>CSS - RESPONSIVE</p>
+          </div>
+
+          <div class="animation-item-2 text-center">
+            <a href="#">
+              <img src="Assets/img/challenge-item/responsive.png" alt="Responsive img" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <!-- .responsive-thumb end here -->
+
+
+        <!-- .animation-thumb start here -->
+        <div class="challenge-front align-self-start mx-3 item-1">
+          <div class="d-flex challenge-title">
+            <i class="fa-solid fa-gear"></i>
+            <p>CSS - ANIMATION</p>
+          </div>
+
+          <div class="animation-item text-center mt-4">
+            <a href="">
+              <img src="Assets/img/challenge-item/soccer.png" alt="soccer png" class="img-fluid">
+            </a> 
+          </div>
+        </div>
+        <!-- .animation-thumb end here -->
+      </div>
+      <!-- .challenge box end -->
+
+      <div class="desc w-40" data-aos="fade-right">
+        <h1>WEB.DEV <span>CHALLENGE</span></h1>
+        <p>This section offers a variety of web development challenges for users to practice and improve their skills, covering topics such as HTML, CSS, JavaScript, and more. It includes interactive tutorials, coding exercises, and quizzes to help users test their knowledge and build practical experience in web development. Users can also access to solution and explanations for each challenges to help them understand the topic better and improve their problem-solving skills.</p>
+        <a href="#"><button class="btn btn-primary">Try Challenge</button></a>
+        <a href="#"><button class="btn btn-primary mx-2"><i class="fa-solid fa-question"></i></button></a>
+      </div>
+    </div>
+
+    <!-- student submitted a challenge start -->
+
+  </div>
+
+
+
+
+  <!-- challenge end here -->
+
+
   <!-- bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -62,5 +139,6 @@
   </script>
   <!-- script -->
   <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

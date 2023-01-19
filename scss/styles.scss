@@ -351,8 +351,167 @@ Useful repo styles
   }
 }
 
+/*-------------------
+Challenge design
+---------------------*/
+#challenge{
+  .desc{
+    .btn{
+      background-color: var(--background-color);
+    }
+  }
+  .challenge-container-box{
+    width: 599px;
+    height: 510px;
+    border-radius: 15px;
+    background-color: var(--challenge-box);
+    margin-top: 50px;
+    .challenge-front{
+      width: 300px;
+      height: 140px;
+      background-color: #1d1e22;
+      border-radius: 10px;
+      cursor: pointer;       
+      box-shadow: 3px 3px 3px black;
+      .challenge-title{
+        color: var(--text-color);
+        margin: 5px 0 0 5px; 
+        p{
+          margin: 0 5px;
+        }
+        
+        i{
+          align-self: center;
+        }
+      }
+
+      .animation-item-2 {
+        img {
+          width: 190px;
+        }
+      }
+    }
+
+    .item-1{
+      background-image: url(/Assets/img/challenge-item/keyframes-code-img.png);
+      background-size: cover;
+      img{
+        width: 80px;
+      }
+    }
+
+    .item-2{
+      background-image: url(/Assets/img/challenge-item/responsive-code-img.png);
+    }
+
+    .item-3{
+      background-image: url(/Assets/img/challenge-item/counter-code-img.png);
+      background-size: cover;
+      .btn{
+        background-color: transparent;
+        padding: 3px 15px;
+        border-radius: 0;
+      }
+      h2{
+        font-weight: 600;
+        color: var(--text-color-white);
+      }
+    }
+  }
+}
 
 
+#challenge{
+  .challenge-front:hover{
+    .animation-item{
+      img{
+      animation: 1s bounceWobble infinite;
+
+        @keyframes bounceWobble{
+          0%{
+            transform: translateY(0px);
+          }
+          10%{
+            transform: translateY(-30px);
+          }
+          25%{
+            transform: translateY(-30px) translateX(-25%) rotate(-5deg);
+          }
+          35%{
+            transform: translateY(-30px) translateX(30%) rotate(3deg);
+          }
+          50%{
+            transform: translateY(-30px) translateX(15%) rotate(-3deg);
+          }
+          65%{
+            transform: translateY(-30px) translateX(15%) rotate(2deg)
+          }
+          80%{
+            transform: translateY(-30px) translateX(30%) rotate(-2deg)
+          }
+          94%{
+            transform: translateY(-30px) translateX(15%) rotate(2deg)
+          }
+          100%{
+            transform: translateY(-30px) translateX(0%);
+          }
+        }
+      }
+    }
+
+    .animation-item-2{
+      img{
+        transition: all 1s ease;
+        transform: scale(1.15);
+      }
+    }
+  }
+}
+
+/*-------------------
+View all design
+---------------------*/
+#view-all .challenge-container{
+  background-color: var(--cards-color);
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 3px 3px 3px black;
+}
+
+#view-all .challenge-logo{
+  background-color: black;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  top: -35px;
+  left: 30px;
+  border-radius: 10px;
+}
+
+#view-all .challenge-container{
+  margin-top: 50px;
+}
+
+#view-all .challenge-container .btn{
+  border-radius: 5px;
+  background-color: var(--cards-color);
+  padding: 5px 10px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+#view-all .desc p{
+  font-size: 1rem;
+}
+
+#view-all .desc{
+  margin: -20px 20px;
+}
+
+#view-all .desc h4{
+  color: turquoise;
+  font-size: 1.75rem;
+}
 
 /*-------------------
 Responsive design
@@ -393,7 +552,20 @@ Responsive design
   }
 }
 
+@media screen and (max-width: 635px) {
+  #challenge{
+    .challenge-container-box{
+      max-width: 100%;
+    }
 
+    .desc{
+      h1{
+        font-size: 3rem;
+        margin-top: 10px;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 414px) {
   .gradient-txt {

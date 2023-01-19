@@ -1,24 +1,25 @@
 /*-------------
 About us styles
 ---------------*/
-#about{
+#about {
   max-height: 80vh;
   margin-top: 50px;
 }
-#about .img{
+
+#about .img {
   text-align: center;
 }
 
-#about .img img{
+#about .img img {
   width: 700px;
 }
 
 /* mission vision */
-#about-2{
+#about-2 {
   margin-top: 50px;
 }
 
-#about-2 .about-item{
+#about-2 .about-item {
   margin: 20px 0;
   background-color: #191a21;
   padding: 50px 30px;
@@ -26,74 +27,74 @@ About us styles
   height: 400px;
 }
 
-#about-2 .about-item h3{
+#about-2 .about-item h3 {
   color: var(--secondary);
 }
 
-#about-2 .about-item i{
+#about-2 .about-item i {
   font-size: 3.25rem;
   margin: 0;
   color: var(--text-color);
   margin-bottom: 20px;
 }
 
-#about-2 .about-item h3{
+#about-2 .about-item h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.about-item hr{
-  width:  3rem;
+.about-item hr {
+  width: 3rem;
   height: 3px;
   background-color: white;
   margin: 0 auto;
   border: none;
 }
 
-.about-item p{
+.about-item p {
   margin-top: 20px;
   color: var(--text-color);
 }
 
-.about-item:hover{
+.about-item:hover {
   background-color: cyan;
 }
 
 /* introduction */
-.creator .prof img{
+.creator .prof img {
   max-width: 400px;
   border-radius: 10px;
   border: 10px solid var(--dark);
   box-shadow: 5px 5px 9px rgb(9, 6, 6);
 }
 
-.creator{
+.creator {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
 /* footer */
-#footer{
+#footer {
   border-top: 1px solid #161a23;
 }
 
-#footer h2{
+#footer h2 {
   font-size: 1.5rem;
   color: var(--text-color-white);
   margin-top: 5rem;
 }
 
-#footer ul li{
+#footer ul li {
   list-style-type: none;
   margin: 1.25rem 0 0 -2rem;
 }
 
-#footer .news-letter p{
+#footer .news-letter p {
   color: var(--text-color);
   margin-top: 1.25rem;
 }
 
-#footer .news-letter input{
+#footer .news-letter input {
   background-color: #212933;
   border: none;
   border-radius: 50px;
@@ -101,55 +102,59 @@ About us styles
   color: var(--text-color);
 }
 
-#footer .news-letter button{
+#footer .news-letter button {
   border-radius: 50px;
   padding: 15px 23px;
   margin-left: 5px;
 }
 
-#footer .news-letter input:focus{
+#footer .news-letter input:focus {
   outline: none;
+}
+
+#footer .social {
+  cursor: pointer;
 }
 
 /* responsive design (smaller desktop size) */
 @media screen and (max-width: 1280px) {
-  #about{
+  #about {
     margin: 0;
   }
 
-  #about .img img{
+  #about .img img {
     width: 500px;
   }
 
-  .desc{
+  .desc {
     width: 50%;
   }
-  
+
   #about-2 .container .about-item {
     height: 430px;
   }
 
-  #footer h2{
+  #footer h2 {
     font-size: 1rem;
   }
 
   #footer ul li,
-  #footer p{
+  #footer p {
     font-size: .8rem;
   }
 
-  #footer input{
+  #footer input {
     font-size: .9rem;
   }
 
-  #footer button{
+  #footer button {
     font-size: .9rem;
   }
 }
 
 /* responsive design (Ipad air landscape) */
-@media screen and (max-width: 1180px){
-  #about-2 .container .about-item{
+@media screen and (max-width: 1180px) {
+  #about-2 .container .about-item {
     height: 460px;
   }
 }
@@ -160,7 +165,7 @@ About us styles
     margin-top: 20px;
   }
 
-  .creator .prof{
+  .creator .prof {
     text-align: center;
   }
 
@@ -182,29 +187,29 @@ About us styles
   }
 }
 
-  @media screen and (max-width: 414px){
-  #about {
-      max-height: 120vh;
-    }
-  
-    #footer .news-letter input,
-    #footer .news-letter,
-    #about .img img {
-      width: 100%;
-    }
-  
-    .creator .prof img {
-      max-width: 100%;
-    }
-  
-    #footer h2 {
-      margin-top: 30px;
-    }
-  
-    #footer .news-letter button {
-      margin: 0;
-      margin-top: 10px;
-      width: 100%;
-    }
-}
 /* responsive design mobile device */
+@media screen and (max-width: 516px) {
+  #about {
+    max-height: 120vh;
+  }
+
+  #footer .news-letter input,
+  #footer .news-letter,
+  #about .img img {
+    width: 100%;
+  }
+
+  .creator .prof img {
+    max-width: 100%;
+  }
+
+  #footer h2 {
+    margin-top: 30px;
+  }
+
+  #footer .news-letter button {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
