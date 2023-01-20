@@ -9,18 +9,40 @@ form.addEventListener('submit', e => {
 })
 
 function showPopup() {
-  Swal.fire(
-  'Good job!',
-  'Thank you for submitting your work',
-  'success'
-  )
+  let name = document.getElementById("user-name").value;
+  let repoLink = document.getElementById("repo-link").value;
+
+  if (!name || !repoLink) {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Please fill in all the required fields',
+    })
+  } else {
+    Swal.fire(
+      'Good job!',
+      'Thank you for submitting your work',
+      'success'
+    )
+  }
 }
 
 function popUp() {
-  Swal.fire(
-  'Thank you!',
-  "we'll get back to you as soon as possible",
-  'success'
-  )
-}
+  let email = document.getElementById("email-address").value;
+  let language = document.getElementById("language").value;
+  let question = document.getElementById("question").value;
 
+  if (!email || !language || !question) {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Please fill in all the required fields',   
+    })
+  } else {
+    Swal.fire(
+      'Thank you!',
+      "we'll get back to you as soon as possible",
+      'success'
+    )
+  }
+} 
