@@ -52,5 +52,6 @@ I want to acknowledge the valuable contributions of these resources in the devel
 * [Code Image](https://app.codeimage.dev/)
 * [Scribehow](https://scribehow.com/)
 * [Font Awesome](https://fontawesome.com)
+* [Sweet Alert](https://sweetalert2.github.io/)
 
 
