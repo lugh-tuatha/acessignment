@@ -100,7 +100,7 @@
           </div>
 
           <div class="animation-item text-center mt-4">
-            <a href="">
+            <a href="https://github.com/acessignment/animation/tree/starter-pack" target="_blank">
               <img src="Assets/img/challenge-item/soccer.png" alt="soccer png" class="img-fluid">
             </a> 
           </div>
@@ -113,16 +113,24 @@
         <h1>WEB.DEV <span>CHALLENGE</span></h1>
         <p>This section offers a variety of web development challenges for users to practice and improve their skills, covering topics such as HTML, CSS, JavaScript, and more. It includes interactive tutorials, coding exercises, and quizzes to help users test their knowledge and build practical experience in web development. Users can also access to solution and explanations for each challenges to help them understand the topic better and improve their problem-solving skills.</p>
         <a href="try-challenge.html"><button class="btn btn-primary">Try Challenge</button></a>
-        <a href="#"><button class="btn btn-primary mx-2"><i class="fa-solid fa-question"></i></button></a>
+        <button class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#how-it-works"><i class="fa-solid fa-question"></i></button>
       </div>
     </div>
 
-    <div class="how-it-works mt-4">
-      <div class="desc">
-        <h1 class="text-center">HOW IT <span>WORKS</span></h1>
+    <!-- Modal -->
+    <div class="modal fade" id="how-it-works" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">HOW IT <span>WORKS</span></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>To begin a challenge, click the "Try Challenge" button. From there, select the challenge you want to attempt. Clicking "Start Challenge" will take you to the starter-pack GitHub repository where you can download the code as a zip file. Once you have opened the repository in VSCode, you will see that there are pre-existing folders and files set up for you. In the repository, there is a file called "your.css" where you can fill in the blank properties and try to complete the challenge on your own. If you ever feel stuck, you can refer to the main repository for solutions.</p>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
 
   <!-- challenge end here -->

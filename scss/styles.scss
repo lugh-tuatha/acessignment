@@ -421,6 +421,16 @@ Challenge design
       }
     }
   }
+
+  .modal{
+    h1{
+      color: turquoise;
+    }
+    p{
+      color: var(--text-color);
+      text-align: justify;
+    }
+  }
 }
 
 
