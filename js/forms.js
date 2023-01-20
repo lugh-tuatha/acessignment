@@ -7,3 +7,20 @@ form.addEventListener('submit', e => {
     .then(response => console.log('Success!', response))
     .catch(error => console.error('Error!', error.message))
 })
+
+function showPopup() {
+  Swal.fire(
+  'Good job!',
+  'Thank you for submitting your work',
+  'success'
+  )
+}
+
+function popUp() {
+  Swal.fire(
+  'Thank you!',
+  "we'll get back to you as soon as possible",
+  'success'
+  )
+}
+
