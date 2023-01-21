@@ -82,7 +82,6 @@ rBackground.addEventListener('click', function() {
   roadmapSh.classList.remove('expanded');
   tome.classList.remove('expanded');
   iconFinder.classList.remove('expanded');
-
 });
 
 cGpt.addEventListener('click', function() {
@@ -95,7 +94,6 @@ cGpt.addEventListener('click', function() {
   roadmapSh.classList.remove('expanded');
   tome.classList.remove('expanded');
   iconFinder.classList.remove('expanded');
-
 });
 
 roadmapSh.addEventListener('click', function() {
@@ -107,7 +105,6 @@ roadmapSh.addEventListener('click', function() {
   rBackground.classList.remove('expanded');
   tome.classList.remove('expanded');
   iconFinder.classList.remove('expanded');
-
 });
 
 tome.addEventListener('click', function() {

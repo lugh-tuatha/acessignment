@@ -546,6 +546,7 @@ Vscode design
     color: turquoise;
     font-weight: 600;
     margin-top: 20px;
+    filter: grayscale(100%);
   }
 
   .vs-content{
@@ -558,6 +559,7 @@ Vscode design
 
 #vscodeExtension{
   .vscode-card:hover{
+    h3,
     img{
       transition: filter .5s ease-in-out;
       filter: grayscale(0);
