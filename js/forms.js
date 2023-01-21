@@ -45,4 +45,12 @@ function popUp() {
       'success'
     )
   }
-} 
+}
+
+function subPopup() {
+  Swal.fire(
+    "",
+    "Thank you for subscribing to our newsletter!",
+    'success'
+  )
+}

@@ -165,8 +165,10 @@
     <div class="news-letter f-item">
       <h2 class="rcv">Subscribe to our newsletter</h2>
       <p>Be the first to receive news about Acessignment</p>
-      <input type="email" placeholder="Your Email" required class="w-60 sub-email">
-      <button class="btn btn-primary sub-btn">Subscribe <i class="fa-solid fa-paper-plane"></i></button>
+      <form name="submit-to-google-sheet">
+        <input type="email" placeholder="Your Email" name="Subscribers-email" required class="w-60 sub-email">
+        <button class="btn btn-primary sub-btn" type="submit" onclick="subPopup()">Subscribe <i class="fa-solid fa-paper-plane"></i></button>
+      </form>
       <div class="social mt-2">
         <a href="https://www.facebook.com/karma.053" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
         <a href="https://twitter.com/_tuatha" target="_blank"><i class="fa-brands fa-twitter fa-2x me-2"></i></a>
@@ -188,7 +190,10 @@
       duration: 1100
     });
   </script>
+  <!-- sweet alert cdn -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- navigation script -->
   <script src="js/main.js"></script>
+  <script src="js/forms.js"></script>
 </body>
 </html>
