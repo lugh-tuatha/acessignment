@@ -166,3 +166,4 @@ doIt.addEventListener('hidden.bs.modal', function () {
   vdoIt.pause();
 });
 
+
