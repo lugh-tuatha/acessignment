@@ -153,6 +153,13 @@ About us styles
 }
 
 /* responsive design (Ipad air landscape) */
+@media screen and (max-width: 1280px) {
+  #footer .news-letter button{
+    margin-left: 0px;
+  }
+
+}
+
 @media screen and (max-width: 1180px) {
   #about-2 .container .about-item {
     height: 460px;
@@ -187,6 +194,26 @@ About us styles
   }
 }
 
+@media screen and (max-width: 765px) {
+  .creator{
+    max-width: 100%;
+  } 
+
+  #footer .news-letter{
+    margin: 0;
+  }
+
+  #footer h2{
+    margin-top: 1.5rem;
+  }
+
+  #footer .fter{
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
 /* responsive design mobile device */
 @media screen and (max-width: 516px) {
   #about {
@@ -211,5 +238,9 @@ About us styles
     margin: 0;
     margin-top: 10px;
     width: 100%;
+  }
+
+  #footer .fter{
+    display: block;
   }
 }

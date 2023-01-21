@@ -640,12 +640,33 @@ Responsive design
       }
     }
   }
+
+  #footer{
+    .sub-email,
+    .sub-btn{
+      width: 100%;
+    }
+
+    .sub-btn{
+      margin-top: 10px;
+    }
+  }
 }
 
 @media screen and (max-width: 990px) {
   .motivation {
     .motivationContainer {
       column-count: 3;
+    }
+  }
+
+  #footer{
+    .sub-email{
+      width: 65%;
+    }
+
+    .sub-btn{
+      width: 30%;
     }
   }
 }
