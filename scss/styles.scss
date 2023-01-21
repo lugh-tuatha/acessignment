@@ -567,6 +567,57 @@ Vscode design
   }
 }
 
+// participant design
+.participant{
+  .des{
+    h3{
+      color: var(--primary);
+    }
+    p{
+      color: var(--text-color);
+    }
+  }
+
+  .participant-box{
+  background-color: var(--cards-color);
+  border-radius: 15px;
+    img{
+      width: 100%;
+      margin: 1rem 0;
+      border-radius: 10px;
+    }
+
+    h3, p{
+      text-align: start;
+    }
+
+    h3{
+      font-size: 1.5rem;
+      color: var(--text-color);
+      font-weight: 600;
+    }
+
+    span{
+      color: var(--primary);
+    }
+
+    p{
+      color: var(--text-color);
+    }
+
+    i{
+      font-size: 1.5rem;
+    }
+  }
+} 
+
+.participant {
+  .participant-box:hover {
+    transition: box-shadow .2s ease-in-out;
+    box-shadow: 0 0px 30px black;  
+  }
+}
+
 
 /*-------------------
 Responsive design
