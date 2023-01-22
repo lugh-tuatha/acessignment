@@ -9,8 +9,9 @@
 2. Open the project to your VScode
 
 3. From there you can now fill the unfilled property at "your.css" file
+
 ![](img/animation.png)
 
-4. Submit your code [here](https://acessignment.vercel.app/try-challenge.html)
+4. Submit the link of your repo code [here](https://acessignment.vercel.app/try-challenge.html)
 - NOTE: Dont add/remove any line of code in scss folder
 
