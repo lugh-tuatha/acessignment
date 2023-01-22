@@ -1,0 +1,25 @@
+.container{
+  .container-box{
+    width: 350px;
+    height: 160px;
+    border: 2px solid black;
+  }
+
+  .rectangle,
+  .box {
+    background-color: turquoise;
+    transition: all 1s ease;
+    margin: 0 auto;
+  }
+
+  img,
+  .box {
+    width: 80px;
+    height: 80px;
+  }
+
+  .rectangle {
+    width: 100px;
+    height: 70px;
+  }
+}

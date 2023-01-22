@@ -9,60 +9,93 @@
   <link rel="stylesheet" href="dist/styles.css">
 </head>
 <body>
+
   <div class="container">
+    
     <div class="desc">
       <h1>Practice your CSS Transition and Animation skill</h1>
-      <p>Here, you will become familiar with a variety of CSS3 transitions and will have the opportunity to practice them in order to improve your skills and understanding of how to use them in your web development projects.</p>
+      <p>Here, you will become familiar with a variety of CSS3 transitions and will have the opportunity to practice them in
+        order to improve your skills and understanding of how to use them in your web development projects.</p>
     </div>
 
+    <!-- .single-property start here -->
     <h2>Single-property Transition</h2>
+    <div class="single-property">
+      <div class="container-box">
+        <h3>Width Transition</h3>
+        <p>This transition stretch the width from 100px to 300px when hovered </p>
+        <div class="rectangle width"></div>
+      </div>
+      
+      <div class="container-box">
+        <h3>Size Transition</h3>
+        <p>This transition stretch the height from 70px to 50px and width from 100px to 100px</p>
+        <div class="rectangle size"></div>
+      </div>
+      
+      <div class="container-box">
+        <h3>Rotation Transition</h3>
+        <p>This transition rotates the box 0 - 360deg</p>
+        <div class="box rotate"></div>
+      </div>
+      
+      <div class="container-box">
+        <h3>Scale Transition</h3>
+        <p>This transition scale the box from 100% - 120%</p>
+        <div class="box scale"></div>
+      </div>
+      
+      <div class="container-box">
+        <h3>Border Transition</h3>
+        <p>Add 10px border when hover</p>
+        <div class="border box"></div>
+      </div>
+    </div>
+    <!-- .single-property end here -->
 
-    <h3>Width Transition</h3>
-    <p>This transition stretch the width from 100px to 300px when hovered </p>
-    <div class="rectangle width"></div>
-
-    <h3>Size Transition</h3>
-    <p>This transition stretch the height from 70px to 50px and width from 100px to 100px</p>
-    <div class="rectangle size"></div>
-
-    <h3>Rotation Transition</h3>
-    <p>This transition rotates the box 0 - 360deg</p>
-    <div class="box rotate"></div>
-
-    <h3>Scale Transition</h3>
-    <p>This transition scale the box from 100% - 120%</p>
-    <div class="box scale"></div>
-
-    <h3>Border Transition</h3>
-    <p>Add 10px border when hover</p>
-    <div class="border box"></div>
-
+    <!-- .multi-property start here -->
     <h2>Multi-property transition</h2>
-
-    <h3>Scales and rotate</h3>
-    <p>This transition Scale by 150% at the same time it rotate 0 - 360deg</p>
-    <img src="img/rasengan.webp" class="scale-rotate" alt="">
-
-    <h3>Pointing transition</h3>
-    <p>This transition Scale by 150% at the same time it rotate 0 - 360deg</p>
-    <img src="img/point-right.png" class="translate-scale" alt="pointing hand">
+    <div class="multi-property">
+      <div class="container-box">
+        <h3>Scales and rotate</h3>
+        <p>This transition Scale by 150% at the same time it rotate 0 - 360deg</p>
+        <img src="img/rasengan.webp" class="scale-rotate" alt="">
+      </div>
+      
+      <div class="container-box">
+        <h3>Pointing transition</h3>
+        <p>This transition Scale by 150% at the same time it rotate 0 - 360deg</p>
+        <img src="img/point-right.png" class="translate-scale" alt="pointing hand">
+      </div>
+    </div>
+    <!-- .multi-property end here -->
 
     <h2>Animation</h2>
-    <h3>Bounce</h3>
-    <p>This animation bounce infinite</p>
-    <img src="img/ball.png" class="bounce" alt="ball">
+  <div class="animation">
+    <div class="container-box">
+      <h3>Bounce</h3>
+      <p>This animation bounce infinite</p>
+      <img src="img/ball.png" class="bounce" alt="ball">
+    </div>
 
-    <h3>Infinite rotate</h3>
-    <p>This animation rotates infinite</p>
-    <img src="img/ball.png" alt="ball" class="rotate-infinite">
+    <div class="container-box">
+      <h3>Infinite rotate</h3>
+      <p>This animation rotates infinite</p>
+      <img src="img/ball.png" alt="ball" class="rotate-infinite">
+    </div>
 
-    <h3>Pulse</h3>
-    <p>This animation simulates a pulsating or throbbing movement</p>
-    <img src="img/heart.png" alt="heart" class="pulse">
+    <div class="container-box">
+      <h3>Pulse</h3>
+      <p>This animation simulates a pulsating or throbbing movement</p>
+      <img src="img/heart.png" alt="heart" class="pulse">
+    </div>
 
-    <h3>Wobble</h3>
-    <p>This animation simulates an object or element shaking or vibrating</p>
-    <img src="img/ball.png" alt="ball" class="wobble">
+    <div class="container-box">
+      <h3>Wobble</h3>
+      <p>This animation simulates an object or element shaking or vibrating</p>
+      <img src="img/ball.png" alt="ball" class="wobble">
+    </div>
+  </div>
   </div>
 </body>
 </html>
