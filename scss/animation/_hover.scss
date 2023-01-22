@@ -1,0 +1,33 @@
+.container{
+  .width:hover {
+    width: 300px;
+  }
+
+  .size:hover {
+    height: 50px;
+    width: 200px;
+  }
+
+  .rotate:hover {
+    transform: rotate(360deg);
+  }
+
+  .scale:hover {
+    transform: scale(120%);
+  }
+
+  .border:hover {
+    border: 10px solid black;
+    transition: .5s border ease;
+  }
+
+
+  .scale-rotate:hover {
+    transform: scale(150%) rotate(360deg);
+  }
+
+  .translate-scale:hover {
+    transform: scale(150%) translateX(50px);
+    transition: transform 2s ease;
+  }
+}

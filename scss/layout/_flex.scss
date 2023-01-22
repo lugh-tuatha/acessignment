@@ -1,0 +1,10 @@
+.container{
+  .animation,
+  .multi-property,
+  .single-property{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
