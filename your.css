@@ -1,0 +1,126 @@
+/* width transition */
+.width:hover {
+
+}
+
+/* size transition */
+.size:hover {
+  
+}
+
+/* Rotation Transition */
+.rotate:hover {
+
+}
+
+/* Scale Transition */
+.scale:hover {
+
+}
+
+/* Scale Transition */
+.border:hover {
+
+}
+
+/* Scales and rotate */
+.scale-rotate {
+
+}
+
+.scale-rotate:hover {
+
+}
+
+/* Pointing transition */
+.translate-scale:hover {
+
+}
+
+/* Bounce */
+.bounce {
+
+}
+
+@keyframes bounce {
+  0% {
+
+  }
+
+  50% {
+
+  }
+
+  100% {
+
+  }
+}
+
+/* Infinite rotate */
+.rotate-infinite {
+
+}
+
+@keyframes rotate {
+  from {
+
+  }
+
+  to {
+
+  }
+}
+
+/* Pulse */
+.pulse {
+
+}
+
+@keyframes pulse {
+  0% {
+
+  }
+
+  50% {
+
+  }
+
+  100% {
+
+  }
+}
+
+/* Wobble */
+.wobble {
+
+}
+
+@keyframes wobble {
+  0% {
+
+  }
+
+  15% {
+
+  }
+
+  30% {
+
+  }
+
+  45% {
+
+  }
+
+  60% {
+
+  }
+
+  75% {
+
+  }
+
+  100% {
+
+  }
+}
