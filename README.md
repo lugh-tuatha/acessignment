@@ -2,10 +2,14 @@
 
 ## How to participate
 
-- To start this challenge first download this starterpack repository <br>
+1. To start this challenge first download this starterpack repository <br>
 
 ![](img/download-zip.png)
 
-- Open the project to your VScode
+2. Open the project to your VScode
 
-- From there you can 
+3. From there you can now fill the unfilled property at "your.css" file
+
+4. Submit your code [here](https://acessignment.vercel.app/try-challenge.html)
+- NOTE: Dont add/remove any line of code in scss folder
+
