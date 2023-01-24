@@ -32,6 +32,13 @@ Here, you will find information about the languages, frameworks, and libraries t
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
+## Roadmap
+
+- [ ] Add More resources 
+    - [ ] Interview Preparation
+    - [ ] Comprehensive Library
+    - [ ] Useful Chrome Extension
+
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
