@@ -34,6 +34,10 @@ Here, you will find information about the languages, frameworks, and libraries t
 
 ## Roadmap
 
+
+- [ ] Add More challenges
+    - [ ] Responsive
+    - [ ] JS Counter
 - [ ] Add More resources 
     - [ ] Interview Preparation
     - [ ] Comprehensive Library
