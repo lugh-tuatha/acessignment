@@ -23,7 +23,7 @@
 
 Get the help you need on your coding assignments with our website. Making it easy for you to find solutions for your assignments. Search through this website of answers or submit a question of your own, and start coding with confidence.
 
-## built with 
+## Built with 
 Here, you will find information about the languages, frameworks, and libraries that were used to create this project.
 <br> <br>
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -55,6 +55,13 @@ Don't forget to give the project a star! Thanks again!
 4. Commit your Changes `git commit -m 'Add some AmazingFeature'`
 5. Push to the Branch `git push origin <branch_name>`
 6. Open a Pull Request
+
+## Release History
+
+* 0.0.2
+    * The first proper [release](https://github.com/lugh-tuatha/acessignment)
+* 0.0.1
+    * Work in progress
 
 ## Acknowledgments
 I want to acknowledge the valuable contributions of these resources in the development of our project.
