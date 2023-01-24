@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://acessignment.vercel.app/">
-    <img src="Assets/img/logo/logo.png" alt="Logo" width="80" height="80">
+    <img src="Assets/img/Acessignment.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Acessignment</h3>
@@ -34,6 +34,7 @@ Here, you will find information about the languages, frameworks, and libraries t
 
 ## Roadmap
 
+- [ ] Add testimonial if already have 
 - [ ] Fix Sass files make it more readable & Maintainable 
 - [ ] Add More challenges
     - [ ] Responsive
