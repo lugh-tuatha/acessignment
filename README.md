@@ -48,6 +48,8 @@ Here, you will find information about the languages, frameworks, and libraries t
     - [ ] Interview Preparation
     - [ ] Comprehensive Library
     - [ ] Useful Chrome Extension
+- [ ] Make all pages style consistently
+
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
