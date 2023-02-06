@@ -41,7 +41,10 @@ Here, you will find information about the languages, frameworks, and libraries t
 - [ ] Fix sweet alert in newspaper 
 - [ ] Add testimonial if already have 
 - [ ] Fix Sass files make it more readable & Maintainable 
+    - [ ] Fix js files (DRY) 
+    - [ ] Use tailwind css
 - [ ] Add More challenges
+    - [ ] Video instruction to resources 
     - [ ] Responsive
     - [ ] JS Counter
 - [ ] Add More resources 
@@ -73,7 +76,7 @@ Don't forget to give the project a star! Thanks again!
 ## Release History
 
 * 0.0.2
-    * The first proper [release](https://github.com/lugh-tuatha/acessignment)
+    * The first proper [release](https://github.com/lugh-tuatha/acessignment) - 1 / 22 / 2023
 * 0.0.1
     * Work in progress
 
