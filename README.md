@@ -76,7 +76,8 @@ Don't forget to give the project a star! Thanks again!
 ## Release History
 
 * 0.0.2
-    * The first proper [release](https://github.com/lugh-tuatha/acessignment) - 1 / 22 / 2023
+    * The first proper [release](https://github.com/lugh-tuatha/acessignment)
+        * 01-22-23   
 * 0.0.1
     * Work in progress
 
