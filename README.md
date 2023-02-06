@@ -44,7 +44,7 @@ Here, you will find information about the languages, frameworks, and libraries t
     - [ ] Fix js files (DRY) 
     - [ ] Use tailwind css
 - [ ] Add More challenges
-    - [ ] Video instruction to resources 
+    - [ ] Video instruction to challenges 
     - [ ] Responsive
     - [ ] JS Counter
 - [ ] Add More resources 
@@ -53,6 +53,7 @@ Here, you will find information about the languages, frameworks, and libraries t
     - [ ] Useful Chrome Extension
 - [ ] Make all pages style consistently
 - [ ] Add section project suggestion 
+- [ ] Replace the scribehow tutorial to videos
 - [ ] Remove the answe src section 
     - [ ] Replace own courses
 
