@@ -50,6 +50,9 @@ Here, you will find information about the languages, frameworks, and libraries t
     - [ ] Useful Chrome Extension
 - [ ] Make all pages style consistently
 - [ ] Add section project suggestion 
+- [ ] Remove the answe src section 
+    - [ ] Replace own courses
+
 
 
 
