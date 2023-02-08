@@ -56,6 +56,7 @@ Here, you will find information about the languages, frameworks, and libraries t
 - [ ] Replace the scribehow tutorial to videos
 - [ ] Remove the answe src section 
     - [ ] Replace own courses
+- [ ] Add tips for How to Position Yourself for a New Career (coursera)
 
 
 
