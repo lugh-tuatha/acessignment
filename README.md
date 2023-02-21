@@ -76,10 +76,11 @@ Don't forget to give the project a star! Thanks again!
 6. Open a Pull Request
 
 ## Release History
-
-* 0.0.2
+* 0.2.0
+    * Change Technology Stack: React [here](https://)
+* 0.1.1
     * The first proper [release](https://github.com/lugh-tuatha/acessignment)
-* 0.0.1
+* 0.1.0
     * Work in progress
 
 ## Acknowledgments
