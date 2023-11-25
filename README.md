@@ -33,9 +33,7 @@ Here, you will find information about the languages, frameworks, and libraries t
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 ## Roadmap
-
-
-
+Roadmap that will never be completed:
 - [ ] Add content tto useful sites
     - [ ] restorePhotos.io
 - [ ] Fix sweet alert in newspaper 
@@ -57,10 +55,6 @@ Here, you will find information about the languages, frameworks, and libraries t
 - [ ] Remove the answe src section 
     - [ ] Replace own courses
 - [ ] Add tips for How to Position Yourself for a New Career (coursera)
-
-
-
-
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -93,3 +87,6 @@ I want to acknowledge the valuable contributions of these resources in the devel
 * [Sweet Alert](https://sweetalert2.github.io/)
 
 
+### One of Ace's legacy projects. This project is no longer maintained.
+Either way, the world when this project will not be maintained: 
+![](Assets/world.png)

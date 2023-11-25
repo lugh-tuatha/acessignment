@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "Assets/img/thumb/yt_thumb/how-to-git.png",
+    "title": "Paano gamitin ang git",
+    "targetId": "how-to-git",
+    "modalTitle": "Ano ba 'yung Git? (repos, staging, commits)",
+    "modalImage": "Assets/img/modal_img/how-to-git.png",
+    "desc": "In this video, you will learn the process of staging files, committing changes, checking out previous commits, and undoing commits, as well as some best practices and tips to help you get started with version control.",
+    "requirements": {
+      "first": "Basic Computer Skills",
+      "second": "Basic knowledge about terminal"
+    },
+    "link": "https://www.youtube.com/watch?v=qC1ImyGgaR0&t=276s"
+  },
+  {
+    "id": 2,
+    "thumbnail": "Assets/img/thumb/yt_thumb/bootstrap_course.png",
+    "title": "Bootstrap course",
+    "targetId": "bootsrap-course",
+    "modalTitle": "Bootstrap CSS Framework - Full Course for Beginners",
+    "modalImage": "Assets/img/modal_img/bootstrap-c-free-code-camp.png",
+    "desc": "In this video, you will learn about the Bootstrap 5 CSS framework as taught by the co-founder of MDB.",
+    "requirements": {
+      "first": "Basic Computer Skills",
+      "second": "Basic understanding of HTML and CSS is a plus"
+    },
+    "link": "https://youtu.be/-qfEOE4vtxE"
+  },
+  {
+    "id": 3,
+    "thumbnail": "Assets/img/thumb/yt_thumb/js_tagalog_course.png",
+    "title": "Javascript tagalog course",
+    "targetId": "js-tagalog",
+    "modalTitle": "JavaScript Basic to Advance Full Course [ Tagalog ]",
+    "modalImage": "Assets/img/modal_img/javascript-tagalog.png",
+    "desc": "In this video, you will learn a range of topics from basic JavaScript to more advanced concepts like DOM form validation and more.",
+    "requirements": {
+      "first": "Basic Computer Skills",
+      "second": "Basics of HTML5 & CSS3"
+    },
+    "link": "https://www.youtube.com/watch?v=AVTrIV_Qgt8&t=1143s"
+  },
+  {
+    "id": 4,
+    "thumbnail": "Assets/img/thumb/yt_thumb/12hrs_js.png",
+    "title": "12 hrs javascript course",
+    "targetId": "js-12-hrs",
+    "modalTitle": "JavaScript Tutorial for Beginners - Full Course in 12 Hours",
+    "modalImage": "Assets/img/modal_img/js-12hrs.png",
+    "desc": "In this video, you'll learn JavaScript and build projects such as a calculator and weather app.",
+    "requirements": {
+      "first": "Basic Computer Skills",
+      "second": "Basics of HTML5 & CSS3"
+    },
+    "link": "https://www.youtube.com/watch?v=lI1ae4REbFM&t=934s"
+  },
+  {
+    "id": 5,
+    "thumbnail": "Assets/img/thumb/yt_thumb/html_tagalog.png",
+    "title": "HTML tagalog course",
+    "targetId": "html-tagalog",
+    "modalTitle": "Learn HTML in Full: The Ultimate HTML Course for Beginners [TAGALOG]",
+    "modalImage": "Assets/img/modal_img/html-tagalog.png",
+    "desc": "In this video, you'll learn the fundamentals of HTML.",
+    "requirements": {
+      "first": "Basic Computer Skills",
+      "second": "No coding experience is necessary"
+    },
+    "link": "https://www.youtube.com/watch?v=hhIDcq-nrBI&t=929s"
+  },
+  {
+    "id": 6,
+    "thumbnail": "Assets/img/thumb/yt_thumb/css-tagalog.png",
+    "title": "CSS tagalog course",
+    "targetId": "css-tagalog",
+    "modalTitle": "CSS Full Course [TAGALOG]",
+    "modalImage": "Assets/img/modal_img/html-tagalog.png",
+    "desc": "In this video, you'll learn the fundamentals of CSS.",
+    "requirements": {
+      "first": "Basic Computer Skills",
+      "second": "Basics of HTML5"
+    },
+    "link": "https://www.youtube.com/watch?v=4tw6hNeGm5g&t=1s"
+  },
+  {
+    "id": 7,
+    "thumbnail": "Assets/img/thumb/yt_thumb/css-transform.png",
+    "title": "CSS transform & transition",
+    "targetId": "transform",
+    "modalTitle": "CSS Transform and Transition [TAGALOG]",
+    "modalImage": "Assets/img/modal_img/transform.png",
+    "desc": "In this video, you'll learn how to use the transform and transition CSS properties and how they work.",
+    "requirements": {
+      "first": "Basic Computer Skills",
+      "second": "Basics of HTML5 & CSS"
+    },
+    "link": "https://www.youtube.com/watch?v=KcnxW8TonRw&t=2147s"
+  },
+  {
+    "id": 8,
+    "thumbnail": "Assets/img/thumb/yt_thumb/ux-design.png",
+    "title": "Adobe XD essential course",
+    "targetId": "xd-course",
+    "modalTitle": "Adobe XD Course | User Experience <br> Design Essentials Tutorial | UI UX Design",
+    "modalImage": "Assets/img/modal_img/adobe.png",
+    "desc": "In this video, you will learn how to use Adobe XD, as well as design principles, proper content spacing, and colorcombinations.",
+    "requirements": {
+      "first": "Familiarity with editing is a plus",
+      "second": "No coding experience is necessary"
+    },
+    "link": "https://www.youtube.com/watch?v=f2K1jmjj5pM&t=8366s"
+  },
+  {
+    "id": 9,
+    "thumbnail": "Assets/img/thumb/yt_thumb/harvard.png",
+    "title": "Harvard - intro to comsci",
+    "targetId": "harvard",
+    "modalTitle": "CS50 - Introduction to computer science",
+    "modalImage": "Assets/img/modal_img/harvard.png",
+    "desc": "In this video, You will learn the fundamentals of computer science, including topics such as algorithms, data structures, and computer systems.",
+    "requirements": {
+      "first": "Knowledge with problem-solving and basic math concepts is a plus",
+      "second": "Familiarity with the concepts of loops and conditionals"
+    },
+    "link": "https://www.youtube.com/watch?v=8mAITcNt710&t=1534s"
+  },
+  {
+    "id": 10,
+    "thumbnail": "Assets/img/thumb/yt_thumb/2023_design.png",
+    "title": "2023 Design Trends",
+    "targetId": "design-trends",
+    "modalTitle": "2023 Design Trends",
+    "modalImage": "Assets/img/modal_img/design_trends.png",
+    "desc": "In this video, you will see the latest design trends, font suggestions, color combinations, and do's and don'ts for designers",
+    "requirements": {
+      "first": "No coding experience is necessary",
+      "second": "Understanding about design principles"
+    },
+    "link": "https://www.youtube.com/watch?v=WJvmUKCYlN0&t=288s"
+  },
+  {
+    "id": 11,
+    "thumbnail": "Assets/img/thumb/yt_thumb/10-tips-to-comsci.png",
+    "title": "10 tips to all com sci",
+    "targetId": "comsci-tips",
+    "modalTitle": "10 TIPS TO ALL INCOMING COMPUTER SCIENCE STUDENT 2023",
+    "modalImage": "Assets/img/modal_img/10-tips-comsci.png",
+    "desc": "In this video, you'll learn 10 tips to help incoming computer science or IT students quickly learn coding.",
+    "requirements": {
+      "first": "Passion in Learning",
+      "second": "No coding experience is necessary"
+    },
+    "link": "https://www.youtube.com/watch?v=uXHhA5UpQXk"
+  },
+  {
+    "id": 12,
+    "thumbnail": "Assets/img/thumb/yt_thumb/how-to-laern-code.png",
+    "title": "How to Learn to Code",
+    "targetId": "how-to-learn-code",
+    "modalTitle": "How to Learn to Code - 8 Hard Truths",
+    "modalImage": "Assets/img/modal_img/how-to-learn-to-code.png",
+    "desc": "This video covered tips for learning to code.",
+    "requirements": {
+      "first": "Eagerness to start learning",
+      "second": "No coding experience is necessary"
+    },
+    "link": "https://www.youtube.com/watch?v=NtfbWkxJTHw"
+  }
+]
